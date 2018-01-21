@@ -1,30 +1,10 @@
 # 100 Days Of Code - Log
+## Over the next 100 days I want to gain a deeper understanding of JavaScript, I want to better understand Node.js, MongoDB, and Express, and I want to update my portfolio. 
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 1: January 20, 2018 
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Working through some algorithms, I completed challenges including, but not limited to: **reversestring, reverseint, palindrome, maxchar, and fizzbuzz.** I also worked on the 2nd week of MongoDB University's **M001: MongoDB Basics** learning more about *Compass and query operations*.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** Although working on algorithms can be very frustrating at times, I enjoy the challenge and appreciate being able to complete something with a days work. When working through the algorithms I chose to use ES6 syntax, which forced me to spend some time on [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript). 
 
-**Link to work:** [Calculator App](http://www.example.com)
-
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
-
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+As far as MongoDB is concerned, let's just say I have much to learn. I learned more about querying data using methods **.find, .insertOne(), and .insertMany()**.  
