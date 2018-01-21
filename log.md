@@ -1,5 +1,5 @@
 # 100 Days Of Code - Log
-## Over the next 100 days I want to gain a deeper understanding of JavaScript, I want to better understand Node.js, MongoDB, and Express, and I want to update my portfolio. 
+### Over the next 100 days I want to gain a deeper understanding of JavaScript, I want to better understand Node.js, MongoDB, and Express, and I want to update my portfolio. 
 
 ### Day 1: January 20, 2018 
 
