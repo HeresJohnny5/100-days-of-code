@@ -3,7 +3,7 @@
 
 ### Day 1: January 20, 2018 
 
-**Today's Progress**: Working through some algorithms, I completed challenges including, but not limited to: **reversestring, reverseint, palindrome, maxchar, and fizzbuzz.** [GitHub: newAlgorithms](https://github.com/HeresJohnny5/newAlgorithms).
+**Today's Progress**: Working through some algorithms, I completed challenges including, but not limited to: **reversestring, reverseint, palindrome, maxchar, and fizzbuzz.** [GitHub: jsAlgorithms](https://github.com/HeresJohnny5/jsAlgorithms).
 
 I also worked on the 2nd week of MongoDB University's **M001: MongoDB Basics** learning more about *Compass and query operations*.
 
