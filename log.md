@@ -18,3 +18,9 @@ As far as MongoDB is concerned, let's just say I have much to learn. I learned m
 I also took some time to better understand how an ES6 Array Helper Method, *reduce* can help me solve a **maxchar algorithm**, providing a much better, less convoluted solution.
 
 **Thoughts**: Having access to resources makes it quite easy to ask for premature assistance, however it's extremely important that one learns to struggle before reaching out for help. I spent a good amount of time debugging code using the Google Developer Tools when working through the maxchar algorithm and in doing such I now better understand how to use reduce.
+
+### Day 3: January 22, 2018 
+
+**Today's Progress**: While I wasn't able to accomplish as much as I'd hope to, I completed yet another algorithm challenge, let alone deploy my weather application. 
+
+**Thoughts**: Using the *slice* method I didn't have much difficulty completing the chunk algorithm challenge, however what I didn't realize is the *slice* method destroys the array which calls the method in the first place. This forced me to do some research and better yet consider alternative options. The more I learn about *reduce* the more I'm falling in love with this amazing Array Helper Method. I also was able to deploy my (Web App)[ https://nameless-bastion-76427.herokuapp.com/index]. 
