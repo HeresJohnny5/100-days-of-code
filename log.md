@@ -24,3 +24,9 @@ I also took some time to better understand how an ES6 Array Helper Method, *redu
 **Today's Progress**: While I wasn't able to accomplish as much as I'd hope to, I completed yet another algorithm challenge, let alone deploy my weather application. 
 
 **Thoughts**: Using the *slice* method I didn't have much difficulty completing the chunk algorithm challenge, however what I didn't realize is the *slice* method destroys the array which calls the method in the first place. This forced me to do some research and better yet consider alternative options. The more I learn about *reduce* the more I'm falling in love with this amazing Array Helper Method. I also was able to deploy my [Web App](https://nameless-bastion-76427.herokuapp.com/index). 
+
+### Day 4: January 23, 2018 
+
+**Today's Progress**: I was able to complete two algorithm challenges, **anagrams** and **capitalize** using multiple solutions. I also spent some time building a very basic express app, not so much to build, but to better understand the magic behind boilerplate code.
+
+**Thoughts**: The frustrations of time, or lack thereof. While I was able to accomplish completing two algorithm challenges today, I unfortunately found it quite difficult to find much free time for much more than that. This I'm certain will be a reoccuring theme during the work week. Fear not, I'm motivated to see this through and more so geeked to see the results. Regardless, after experiencing some difficult trying to solve the *anagram* challenge, I had the opportunity to refactor my solution using both regular expressions and JSON, two tools I'm learning more about with each waking day.     
