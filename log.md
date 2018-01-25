@@ -29,4 +29,12 @@ I also took some time to better understand how an ES6 Array Helper Method, *redu
 
 **Today's Progress**: I was able to complete two algorithm challenges, **anagrams** and **capitalize** using multiple solutions. I also spent some time building a very basic express app, not so much to build, but to better understand the magic behind boilerplate code.
 
-**Thoughts**: The frustrations of time, or lack thereof. While I was able to accomplish completing two algorithm challenges today, I unfortunately found it quite difficult to find much free time for much more than that. This I'm certain will be a reoccuring theme during the work week. Fear not, I'm motivated to see this through and more so geeked to see the results. Regardless, after experiencing some difficult trying to solve the *anagram* challenge, I had the opportunity to refactor my solution using both regular expressions and JSON, two tools I'm learning more about with each waking day.     
+**Thoughts**: The frustrations of time, or lack thereof. While I was able to accomplish completing two algorithm challenges today, I unfortunately found it quite difficult to find much free time for much more than that. This I'm certain will be a reoccuring theme during the work week. Fear not, I'm motivated to see this through and more so geeked to see the results. Regardless, after experiencing some difficult trying to solve the *anagram* challenge, I had the opportunity to refactor my solution using both regular expressions and JSON, two tools I'm learning more about with each waking day. 
+
+### Day 5: January 24, 2018 
+
+**Today's Progress**: Unfortunately, today was more busy than yesterday. Regardless, I spent my lunch trying to solve a step algorightm, which is located on [GitHub: jsAlgorithms](https://github.com/HeresJohnny5/jsAlgorithms). While I was able to complete the challenge I found it quite difficult to solve the algorithm without using a multi-nested for loop. I also started my third and final week of MongoDB University's M001: MongoDB Basics. Today I learned about Logical and Array Operators.
+
+**Thoughts**: Today I purchased a NodeJs / MongoDB course on Udemy and plan to spend the better portion of February working through the course material. I hope to not only solidify the foundation which MongoDB University has provided, but get a deeper understanding to both NodeJs and MongoDB. After which I'm really wanting to start learning either AngularJs or React. 
+
+
