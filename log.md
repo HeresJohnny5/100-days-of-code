@@ -37,4 +37,8 @@ I also took some time to better understand how an ES6 Array Helper Method, *redu
 
 **Thoughts**: Today I purchased a NodeJs / MongoDB course on Udemy and plan to spend the better portion of February working through the course material. I hope to not only solidify the foundation which MongoDB University has provided, but get a deeper understanding to both NodeJs and MongoDB. After which I'm really wanting to start learning either AngularJs or React. 
 
+## Day 6: January 25, 2008
 
+**Today's Progress**: Today, no different than yesterday was quite busy, both in and out of work. I however was able to wrap up my third and final week of M001: MongoDB Basics, not to mention take the final exam. While it's not code related I created a Trello Board for the entirety of February. I plan on spending the entire month focusing on NodeJs, MongoDB, and Express.
+
+**Thoughts**: I learned a lot over the past 3 weeks with regards to MongoDB, NoSQL, and querying data. While things are starting to make more sense, I have much to learn. As mentioned above, I created a Trello board and plan to focus the entirety of February on NodeJs, MongoDB, and Express. I purchased a coure on Udemy and have documentation saved and ready to go.
