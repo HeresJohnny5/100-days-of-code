@@ -37,8 +37,14 @@ I also took some time to better understand how an ES6 Array Helper Method, *redu
 
 **Thoughts**: Today I purchased a NodeJs / MongoDB course on Udemy and plan to spend the better portion of February working through the course material. I hope to not only solidify the foundation which MongoDB University has provided, but get a deeper understanding to both NodeJs and MongoDB. After which I'm really wanting to start learning either AngularJs or React. 
 
-## Day 6: January 25, 2008
+## Day 6: January 25, 2018
 
 **Today's Progress**: Today, no different than yesterday was quite busy, both in and out of work. I however was able to wrap up my third and final week of M001: MongoDB Basics, not to mention take the final exam. While it's not code related I created a Trello Board for the entirety of February. I plan on spending the entire month focusing on NodeJs, MongoDB, and Express.
 
 **Thoughts**: I learned a lot over the past 3 weeks with regards to MongoDB, NoSQL, and querying data. While things are starting to make more sense, I have much to learn. As mentioned above, I created a Trello board and plan to focus the entirety of February on NodeJs, MongoDB, and Express. I purchased a coure on Udemy and have documentation saved and ready to go.
+
+## Day 7: January 26, 2018
+
+**Today's Progress**: Today, I took a break from approaching any type of algorithm challenge and focused gaining a deeper understanding of *Asynchronous Code* using the Call Stack, Node API, Callback Queue and Event Loop. 
+
+**Thoughts**: So, the *call stack* is a simple data structure that both recognizes and keeps track of program execution inside the V8 engine, it keeps track of functions currently executing and the statements which are being fired. The first thing that happens is node executes the *main function*, which is the wrapper function that gets wrapped around all other files when said files are being run through Node. I learned that the **call stack can only do one thing at a time**. I learned that any Node API will be both added and removed from the call stack and then placed into the *Node API*, after which said code will be placed into a *call back queue*. There is an *event loop* which looks at the call stack to see when it is empty. Any code nested in the call back queue will not execute until the call stack is completely empty.
