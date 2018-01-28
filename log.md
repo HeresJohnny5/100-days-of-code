@@ -48,3 +48,9 @@ I also took some time to better understand how an ES6 Array Helper Method, *redu
 **Today's Progress**: Today, I took a break from approaching any type of algorithm challenge and focused gaining a deeper understanding of *Asynchronous Code* using the Call Stack, Node API, Callback Queue and Event Loop. 
 
 **Thoughts**: So, the *call stack* is a simple data structure that both recognizes and keeps track of program execution inside the V8 engine, it keeps track of functions currently executing and the statements which are being fired. The first thing that happens is node executes the *main function*, which is the wrapper function that gets wrapped around all other files when said files are being run through Node. I learned that the **call stack can only do one thing at a time**. I learned that any Node API will be both added and removed from the call stack and then placed into the *Node API*, after which said code will be placed into a *call back queue*. There is an *event loop* which looks at the call stack to see when it is empty. Any code nested in the call back queue will not execute until the call stack is completely empty.
+
+## Day 8: January 27, 2018
+
+**Today's Progress**: Today, I spent some time reviewing my [Weather App](https://nameless-bastion-76427.herokuapp.com/index). I also tinkered with the [Dark Sky API](https://darksky.net/dev). Using certain NPM modules, I made it a point to review supporting documentation in hopes of gaining a deeper understanding to both **request** and **body-parser**.
+
+**Thoughts**: It's always a humbling experience when you look back at your code and realize what you once thought was crystal clear has now become convoluted. After stumbling over my code for a hot minute I decided to turn my attention to another matter which I have difficulty understanding, working with APIs. I spent the rest of my free time tinkering with the *Dark Sky API* and NPM Modules *Request* and *body-parser*. 
