@@ -54,3 +54,9 @@ I also took some time to better understand how an ES6 Array Helper Method, *redu
 **Today's Progress**: Today, I spent some time reviewing my [Weather App](https://nameless-bastion-76427.herokuapp.com/index). I also tinkered with the [Dark Sky API](https://darksky.net/dev). Using certain NPM modules, I made it a point to review supporting documentation in hopes of gaining a deeper understanding to both **request** and **body-parser**.
 
 **Thoughts**: It's always a humbling experience when you look back at your code and realize what you once thought was crystal clear has now become convoluted. After stumbling over my code for a hot minute I decided to turn my attention to another matter which I have difficulty understanding, working with APIs. I spent the rest of my free time tinkering with the *Dark Sky API* and NPM Modules *Request* and *body-parser*. 
+
+## Day 9: January 28, 2018
+
+**Today's Progress**: Today, I spent some time learning more about ES6 Promises using [Axios](https://www.npmjs.com/package/axios), a promise-based HTTP client. I created a Trello board, setting up a game plan for all of February to gain a deeper understanding to ES6, MongoDB, Express, and NodeJs.
+
+**Thoughts**: While I'm able to read other's code when discussing asynchronous code I stil find it difficult to brainstorm the process when tackeling a problem. I believe, I hope this will get easier with time and practice. I face this same challenge when working with ES6 Promises. Throughout the week I hope to read up on several npm modules I've used recently e.g. request, yargs, axios, let alone ES6 Promises and Array Helper Methods.
