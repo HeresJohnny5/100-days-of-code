@@ -60,3 +60,11 @@ I also took some time to better understand how an ES6 Array Helper Method, *redu
 **Today's Progress**: Today, I spent some time learning more about ES6 Promises using [Axios](https://www.npmjs.com/package/axios), a promise-based HTTP client. I created a Trello board, setting up a game plan for all of February to gain a deeper understanding to ES6, MongoDB, Express, and NodeJs.
 
 **Thoughts**: While I'm able to read other's code when discussing asynchronous code I stil find it difficult to brainstorm the process when tackeling a problem. I believe, I hope this will get easier with time and practice. I face this same challenge when working with ES6 Promises. Throughout the week I hope to read up on several npm modules I've used recently e.g. request, yargs, axios, let alone ES6 Promises and Array Helper Methods.
+
+## Day 10: January 29, 2018
+
+**Today's Progress**: Today, while short lived was both challenging and rewarding. I spent much of my free time communicating with peers of [The Coding Interview Bootcamp](https://www.udemy.com/coding-interview-bootcamp-algorithms-and-data-structure/?utm_source=adwords-learn&utm_medium=udemyads&utm_campaign=NEW-AW-PROS-TECH-US-DSA-EN-ENG_._ci__._sl_ENG_._vi_TECH_._sd_All_._la_EN_._&utm_content=deal4584&utm_term=_._ag_39357936133_._ad_178076784870_._de_c_._dm__._pl__._ti_dsa-307102297194_._li_9005939_._pd__._&gclid=EAIaIQobChMIkvewzO3-2AIVliSBCh0K1A4fEAAYASAAEgKxDfD_BwE), refactoring my code based on peers feedback and learning by others' approach to coding challenges.
+
+**Thoughts**: So I haven't logged back into *The Coding Interview Bootcamp* course for close to a week due to other obligations. While it was nice to take a break from algorithms, it was challenge to look back, let alone understand my code. Thankfully it didn't take nearly as long to grasp my approach and solution. 
+
+The community has been awesome and I've gotten a lot of great feedback. Reviewing others code has provided me the opportunity to look at algorithm challenges in a different light, which I believe will help expand my understanding of JavaScript as a whole.
