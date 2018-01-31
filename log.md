@@ -68,3 +68,9 @@ I also took some time to better understand how an ES6 Array Helper Method, *redu
 **Thoughts**: So I haven't logged back into *The Coding Interview Bootcamp* course for close to a week due to other obligations. While it was nice to take a break from algorithms, it was challenge to look back, let alone understand my code. Thankfully it didn't take nearly as long to grasp my approach and solution. 
 
 The community has been awesome and I've gotten a lot of great feedback. Reviewing others code has provided me the opportunity to look at algorithm challenges in a different light, which I believe will help expand my understanding of JavaScript as a whole.
+
+## Day 11: January 30, 2018
+
+**Today's Progress**: Today, I spent my lunch reinforcing my knowledge of ES6, specifically ES6 Arrow Functions; I forgot how the **this** variable changes based upon scope. I also invested some time learning more about Express and semantic templates e.g. [ejs](http://ejs.co/) and [handlebars](http://handlebarsjs.com/).
+
+**Thoughts**: While I know I'm not alone, I continue to struggle with time or lack thereof. Regardless, I'm super excited to continue to learn about NodeJs, MongoDB and Express throughout the month of February and more so look forward to starting to learn React come March. 
