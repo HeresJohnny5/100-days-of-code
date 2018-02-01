@@ -77,8 +77,23 @@ The community has been awesome and I've gotten a lot of great feedback. Reviewin
 
 ## Day 12: January 31, 2018
 
-**Today's Progress**: My day started off with receiving a congratulatory email and certificate for completing M001: MongoDB Basics. As mentioned in a previous entry, I learned a lot throughout the 3-week course, but have a lot more to learn. That being said, I registered for a 7-week course, M101JS: MongoDB for Node.js Developers staring March 20th. I spent my lunch learning about ES6, specifically Destructuring, Object Literals and Classes. Unfortunately I didn't have much free time tonight, however I was able to watch several videos from Andrew Mead's [The Complete Node.js Developer Course](https://www.udemy.com/the-complete-nodejs-developer-course-2/?couponCode=LEARNING).
+**Today's Progress**: My day started off with receiving a congratulatory email and certificate for completing M001: MongoDB Basics. As mentioned in a previous entry, I learned a lot throughout the 3-week course, but have a lot more to learn. That being said, I registered for a 7-week course, **M101JS: MongoDB for Node.js Developers** staring *March 20th*. I spent my lunch learning about ES6, specifically *Destructuring, Object Literals and Classes*. Unfortunately I didn't have much free time tonight, however I was able to watch several videos from Andrew Mead's [The Complete Node.js Developer Course](https://www.udemy.com/the-complete-nodejs-developer-course-2/?couponCode=LEARNING).
 
 **Thoughts**: It's been a week now since I last used MongoDB. Fearing that I'm going to forget what I learned I purchased [The Complete Developers Guide to MongoDB](https://www.udemy.com/the-complete-developers-guide-to-mongodb/) and plan to start the course late next week. I have all intent to complete the course prior to starting M101JS: MongoDB for Node.js Developers which starts March 20th. Hopefully this will keep my knowledge of MongoDB fresh and more importantly solidfy my knowledge of the database. 
 
-`Code Block`
+It was really cool learning about **ES6 Destructuring**. I can't say I completely understand the logic, however 
+
+**Example 1**:
+`var demo1 = {
+	name: 'john',
+	role: 'Learning & Development Specialist'
+}
+
+var {name, role} = demo1;
+
+name;
+// will return "john"
+role;
+// will return "Learning & Development Specialist"
+`
+
