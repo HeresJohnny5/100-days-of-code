@@ -74,3 +74,11 @@ The community has been awesome and I've gotten a lot of great feedback. Reviewin
 **Today's Progress**: Today, I spent my lunch reinforcing my knowledge of ES6, specifically ES6 Arrow Functions; I forgot how the **this** variable changes based upon scope. I also invested some time learning more about Express and semantic templates e.g. [ejs](http://ejs.co/) and [handlebars](http://handlebarsjs.com/).
 
 **Thoughts**: While I know I'm not alone, I continue to struggle with time or lack thereof. Regardless, I'm super excited to continue to learn about NodeJs, MongoDB and Express throughout the month of February and more so look forward to starting to learn React come March. 
+
+## Day 12: January 31, 2018
+
+**Today's Progress**: My day started off with receiving a congratulatory email and certificate for completing M001: MongoDB Basics. As mentioned in a previous entry, I learned a lot throughout the 3-week course, but have a lot more to learn. That being said, I registered for a 7-week course, M101JS: MongoDB for Node.js Developers staring March 20th. I spent my lunch learning about ES6, specifically Destructuring, Object Literals and Classes. Unfortunately I didn't have much free time tonight, however I was able to watch several videos from Andrew Mead's [The Complete Node.js Developer Course](https://www.udemy.com/the-complete-nodejs-developer-course-2/?couponCode=LEARNING).
+
+**Thoughts**: It's been a week now since I last used MongoDB. Fearing that I'm going to forget what I learned I purchased [The Complete Developers Guide to MongoDB](https://www.udemy.com/the-complete-developers-guide-to-mongodb/) and plan to start the course late next week. I have all intent to complete the course prior to starting M101JS: MongoDB for Node.js Developers which starts March 20th. Hopefully this will keep my knowledge of MongoDB fresh and more importantly solidfy my knowledge of the database. 
+
+`Code Block`
