@@ -93,8 +93,32 @@ var demo1 = {
 var {name, role} = demo1;
 
 name;
-// will return "john"
 role;
-// will return "Learning & Development Specialist"
+// variables name and role MUST be in the object
 ```
 
+**Example 2 (Arguments Object)***:
+```
+var demo1 = {
+	name: 'john',
+	role: 'Learning & Development Specialist',
+}
+
+function greeting({name, role}) {
+	return `Hi my name is ${name} and I\'m a ${role}.`;
+}
+
+greeting(demo1);
+```
+
+**Example 3 (Destructuring with Arrays)**:
+```
+var animals = ['Kratos', 'Flash', 'Nacho'];
+
+var [boy, ...girls] = animals;
+
+boy;
+// this will return 'Kratos'
+girls;
+// this will return ['Flash', 'Nacho'];
+```
