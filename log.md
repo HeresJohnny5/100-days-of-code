@@ -84,7 +84,8 @@ The community has been awesome and I've gotten a lot of great feedback. Reviewin
 It was really cool learning about **ES6 Destructuring**. I can't say I completely understand the logic, however 
 
 **Example 1**:
-`var demo1 = {
+```
+var demo1 = {
 	name: 'john',
 	role: 'Learning & Development Specialist'
 }
@@ -95,5 +96,5 @@ name;
 // will return "john"
 role;
 // will return "Learning & Development Specialist"
-`
+```
 
