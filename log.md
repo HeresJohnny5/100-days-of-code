@@ -84,7 +84,7 @@ The community has been awesome and I've gotten a lot of great feedback. Reviewin
 It was really cool learning about **ES6 Destructuring**. I can't say I completely understand the logic, however 
 
 **Example 1**:
-```
+```javascript
 var demo1 = {
 	name: 'john',
 	role: 'Learning & Development Specialist'
@@ -98,7 +98,7 @@ role;
 ```
 
 **Example 2 (Arguments Object)***:
-```
+```javascript
 var demo1 = {
 	name: 'john',
 	role: 'Learning & Development Specialist',
@@ -112,7 +112,7 @@ greeting(demo1);
 ```
 
 **Example 3 (Destructuring with Arrays)**:
-```
+```javascript
 var animals = ['Kratos', 'Flash', 'Nacho'];
 
 var [boy, ...girls] = animals;
