@@ -124,3 +124,15 @@ girls;
 ```
 
 ---
+### Over the next 28 days I want to gain a deeper understanding of both Node.js and MongoDB.
+
+## Day 13: February 1, 2018
+
+**Progress**: So for the month of February I decided to focus 100% of my free time on everything MongoDB related. Today, learned more about NoSQL vocabulary, [document methods](http://mongodb.github.io/node-mongodb-native/3.0/api/Collection.html) using a test database, [Robomongo](https://robomongo.org/), and [Postman API](https://www.getpostman.com/). 
+
+**Thoughts**: It's much more easy for me to remember NoSQL vocabulary when I compare database terms to JavaScript.
++ Data in NoSQL is formatted in an array like structure similar to data found in JSON. This data is called a **collection**.
++ An individual data record in NoSQL e.g. user is called a **document**.
++ Individual properties in NoSQL e.g. id, name, email, password are called **Field**. In NoSQL, documents in a collection don't need to have the same properties.
+
+While mongo CLI works, Robomongo is a awesom MongoDB GUI which makes working with database data much more visual. 
