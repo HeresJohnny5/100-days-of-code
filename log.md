@@ -135,4 +135,4 @@ girls;
 + An individual data record in NoSQL e.g. user is called a **document**.
 + Individual properties in NoSQL e.g. id, name, email, password are called **Field**. In NoSQL, documents in a collection don't need to have the same properties.
 
-While mongo CLI works, Robomongo is a awesom MongoDB GUI which makes working with database data much more visual. 
+While mongo CLI works, Robomongo is a awesome MongoDB GUI which makes working with database data much more visual. 
