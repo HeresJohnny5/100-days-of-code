@@ -122,3 +122,5 @@ boy;
 girls;
 // this will return ['Flash', 'Nacho'];
 ```
+
+---
