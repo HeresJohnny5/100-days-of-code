@@ -136,3 +136,43 @@ girls;
 + Individual properties in NoSQL e.g. id, name, email, password are called **Field**. In NoSQL, documents in a collection don't need to have the same properties.
 
 While mongo CLI works, Robomongo is a awesome MongoDB GUI which makes working with database data much more visual. 
+
+## Day 14: February 2, 2018
+
+**Progress**: Today I took a deep dive into mongoose reading documentation on [schemas](http://mongoosejs.com/docs/guide.html), [models](http://mongoosejs.com/docs/models.html), [validators](http://mongoosejs.com/docs/validation.html), etc. I created a dummy app, connected a database, and played around with test data using Robomongo.
+
+**Thoughts**: With every waking day things are starting to make more sense, however I understand I have a long road ahead of me.
+
+```javascript
+const mongoose = require('mongoose');
+
+mongoose.Promise = global.Promise;
+
+mongoose.connect('mongodb://localhost/test');
+
+var Todo = mongoose.model('Todo', {
+	text: {
+		type: String,
+		required: true,
+		minlength: 1, // this will prevent the user from entering a empty string
+		trim: true // this will eliminate leading / trailing whitespace
+	},
+	completed: {
+		type: Boolean,
+		default: false
+	}, 
+	completedAt: {
+		type: Number,
+		default: null
+	}
+});
+
+var todo = new Todo({text: req.body.text});
+	
+todo.save().then((doc) => {
+	console.log(JSON.stringify(doc, undefined, 2));
+}, (err) => {
+	console.log(err);
+})
+
+```
