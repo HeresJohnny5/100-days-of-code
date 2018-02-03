@@ -141,9 +141,10 @@ While mongo CLI works, Robomongo is a awesome MongoDB GUI which makes working wi
 
 **Progress**: Today I took a deep dive into mongoose reading documentation on [schemas](http://mongoosejs.com/docs/guide.html), [models](http://mongoosejs.com/docs/models.html), [validators](http://mongoosejs.com/docs/validation.html), etc. I created a dummy app, connected a database, and played around with test data using Robomongo.
 
-**Thoughts**: With every waking day things are starting to make more sense, however I understand I have a long road ahead of me.
+**Thoughts**: I'm excited to say that things are starting to make more sense, however I fully understand I have a long road ahead of me. This entire weekend I plan on doing nothing more than reading up on the mongoose documentation.  
 
 ```javascript
+// mongoose model, validator example
 const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
