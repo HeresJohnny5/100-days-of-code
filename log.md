@@ -221,3 +221,5 @@ app.listen(port, () => {
 + Using mLab MongoDB setup a database
 + Commit to GitHub
 + Push to Heroku
+
+I also spent a lot of time working with a videogame API called [IGDB](https://igdb.github.io/api/about/welcome/). I ran into a lot of issues requesting information, however with some patience and help from the community I was able to both successfully make a request and return some information.
