@@ -186,7 +186,7 @@ todo.save().then((doc) => {
 
 **Things to do when deploying a database to Heroku**:
 + Setup a real MongoDB database
-..+```javascript
+```javascript
 const port = process.env.PORT || 3000; // this will be set if the app is running on Heroku or locally 
 app.listen(port, () => { 
 	console.log(`Server has started on port ${port}.`); 
