@@ -185,10 +185,39 @@ todo.save().then((doc) => {
 **Thoughts**: Going through the 4 month bootcamp with Mined Minds I learned a little about *Test Driven Development* using Ruby. While the syntax is different using the [Mocha](https://mochajs.org/) framework in conjunction with npm modules [expect](https://github.com/mjackson/expect) and [supertest](https://www.npmjs.com/package/supertest) the logic is similar. 
 
 **Things to do when deploying a database to Heroku**:
-+ Setup a real MongoDB database
++ Setup a real MongoDB database:
 ```javascript
 const port = process.env.PORT || 3000; // this will be set if the app is running on Heroku or locally 
 app.listen(port, () => { 
 	console.log(`Server has started on port ${port}.`); 
 });
 ```
++ Tell Heroku how to startup the project and what version of Node is being used:
+```javascript
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "engines": {
+    "node": "9.3.0"
+  },
+  "author": "John Erickson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.5",
+    "mongoose": "^4.13.9"
+  }
+}
+```
++ Using mLab MongoDB setup a database
++ Commit to GitHub
++ Push to Heroku
