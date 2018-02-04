@@ -177,3 +177,18 @@ todo.save().then((doc) => {
 })
 
 ```
+
+## Day 15: February 3, 2018
+
+**Progress**: Today I started to learn how to test in MongoDB using the Mocha framework in conjunction with npm modules: expect, and supertest. Using mLab w/ Heroku I was able to successfully launch a test database. I also started to toy around w/ a videogame API: IGDB
+
+**Thoughts**: Going through the 4 month bootcamp with Mined Minds I learned a little about *Test Driven Development* using Ruby. While the syntax is different using the [Mocha](https://mochajs.org/) framework in conjunction with npm modules [expect](https://github.com/mjackson/expect) and [supertest](https://www.npmjs.com/package/supertest) the logic is similar. 
+
+**Things to do when deploying a database to Heroku**:
++ Setup a real MongoDB database
+++ ```javascript
+const port = process.env.PORT || 3000; // this will be set if the app is running on Heroku or locally 
+app.listen(port, () => { 
+	console.log(`Server has started on port ${port}.`); 
+});
+```
