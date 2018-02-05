@@ -223,3 +223,19 @@ app.listen(port, () => {
 + Push to Heroku
 
 I also spent a lot of time working with a videogame API called [IGDB](https://igdb.github.io/api/about/welcome/). I ran into a lot of issues requesting information, however with some patience and help from the community I was able to both successfully make a request and return some information.
+
+## Day 16: February 4, 2018
+
+**Progress**: I wasn't able to code as much as I'd hope to today, however I was able to complete several algorithm challenges. I want to thank one specific Sting method (padEnd) I was not familiar with which helped me solve one specific challenge. 
+
+**Thoughts**: I appreciate the struggle one encounters when faced with a algorithm challenge. Regardless of how ugly the code is, I love the eureka moment one receives when solving said challenge. I also love coming across a unknown JavaScript method which will take your unruly code and make it elegant. So today, I would like to thank the [padEnd()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd) method.
+
+```javascript
+'abc'.padEnd(10);          // "abc       "
+'abc'.padEnd(10, "foo");   // "abcfoofoof"
+'abc'.padEnd(6, "123456"); // "abc123"
+'abc'.padEnd(1);
+
+```
+
+
