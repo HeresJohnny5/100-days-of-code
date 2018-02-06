@@ -238,4 +238,26 @@ I also spent a lot of time working with a videogame API called [IGDB](https://ig
 
 ```
 
+## Day 17: February 5, 2018
+
+**Progress**: I spent the better half of my lunch reading Mongoose documentation, attempting to reinforce my limited knowledge on [Schemas](http://mongoosejs.com/docs/guide.html) and [Models](http://mongoosejs.com/docs/models.html).
+
+```javascript
+const mongoose = require('mongoose');
+
+const Schema = mongoose.Schema;
+
+const userSchema = new Schema({
+	name: String
+});
+
+const User = mongoose.model('User', userSchema);
+// the first argument controls what the collection is called inside the database
+// the first argument asks MongoDB if there is a collection called 'User'. If a collection called 'User' is not found, mongoose will create one
+
+```
+
+I also attempted to start learning about Security and Authentication, which led me down a rabbit hole which left me with more questions than answers. 
+
+**Thoughts**: I'm uncertain why, however I feel wrapping my head around certain backend concepts, specifically Schemas and Models is taking more time than I initially expected. It seems with every step forward I'm taking two steps back. This backward momentum especially came across when attempting to learn about Security and Authentication. 
 
