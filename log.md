@@ -261,3 +261,8 @@ I also attempted to start learning about Security and Authentication, which led 
 
 **Thoughts**: I'm uncertain why, however I feel wrapping my head around certain backend concepts, specifically Schemas and Models is taking more time than I initially expected. It seems with every step forward I'm taking two steps back. This backward momentum especially came across when attempting to learn about Security and Authentication. 
 
+## Day 18: February 6, 2018
+
+**Progress**: Today I continued to dabble with testing using Mocha while saving data in a MongoDB database. I swear one of these days I'll truly understand ES6 Promises, Callbacks and Asynchronous Code. 
+
+**Thoughts**: Unfortunately I was not able to code much today due to several work responsibilities and meetings. I continued to push through [The Complete Developers Guide to MongoDB](https://www.udemy.com/the-complete-developers-guide-to-mongodb/) by Stephen Grider. As mentioned above I'm still struggling with ES6 Promises and Asynchronous Code. 
