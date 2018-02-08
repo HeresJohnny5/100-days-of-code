@@ -265,4 +265,11 @@ I also attempted to start learning about Security and Authentication, which led 
 
 **Progress**: Today I continued to dabble with testing using Mocha while saving data in a MongoDB database. I swear one of these days I'll truly understand ES6 Promises, Callbacks and Asynchronous Code. 
 
-**Thoughts**: Unfortunately I was not able to code much today due to several work responsibilities and meetings. I continued to push through [The Complete Developers Guide to MongoDB](https://www.udemy.com/the-complete-developers-guide-to-mongodb/) by Stephen Grider. As mentioned above I'm still struggling with ES6 Promises and Asynchronous Code. 
+**Thoughts**: Unfortunately I was not able to code much today due to several work responsibilities and meetings. I continued to push through [The Complete Developers Guide to MongoDB](https://www.udemy.com/the-complete-developers-guide-to-mongodb/) by Stephen Grider. As mentioned above I'm still struggling with ES6 Promises and Asynchronous Code.
+
+## Day 19: February 8, 2018
+
+**Progress**: So lunch time comes, my laptop is open, I'm primed and ready for an hour of code. One second later a bug I never encountered before causes me to debug for said hour. Problem is the error is still not solved. I decided to take a break and invest some time into Stephen Grider's **The Complete Developers Guide to MongoDB**. I reinforced my knowledge of *Schemas*, *Models*, *Model Instances*, *Model Queries*, and *Test Driven Development*. 
+
+**Thoughts**: Encountering the problem I mentioned above was quite frustrating, especially considering the Trello board I created has little to no wiggle room. Lesson of the day, patience is key, don't fear errors and reach out to the community when necessary. Also, it's important to understand that no matter how organized you are, more often than not things will not go as planned and that's OK. 
+
