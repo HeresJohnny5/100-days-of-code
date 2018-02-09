@@ -273,3 +273,8 @@ I also attempted to start learning about Security and Authentication, which led 
 
 **Thoughts**: Encountering the problem I mentioned above was quite frustrating, especially considering the Trello board I created has little to no wiggle room. Lesson of the day, patience is key, don't fear errors and reach out to the community when necessary. Also, it's important to understand that no matter how organized you are, more often than not things will not go as planned and that's OK. 
 
+## Day 20: February 9, 2018
+
+**Progress**: I made progress on **The Complete Developers Guide to MongoDB** all while spending time on [MongoDB Docs](https://docs.mongodb.com/manual/) and [Mongoose](http://mongoosejs.com/docs/guide.html).
+
+**Thoughts**: Another fun filled day learning about test driven development, validation, relational data and NoSQL terminology/concepts. Hopefully all this prep work will help me crush my upcoming MongoDB class: Node.js for Developers. 
