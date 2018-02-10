@@ -284,7 +284,7 @@ I also attempted to start learning about Security and Authentication, which led 
 **Progress**: Today I made progress on **The Complete Developers Guide to MongoDB**. I learned about the pros/cons of embedded documents vs separate collections. I also learned how to create associations between multiple collections, which I know may sound lame, but let me tell you it's pretty rad!
 
 ```javascript
-// USER
+// ***** USER *****
 // LIBRARY IMPORT
 const mongoose = require('mongoose');
 
@@ -305,7 +305,7 @@ const UserSchema = new Schema({
   },
   blogPosts: [{
     type: Schema.Types.ObjectId,
-    ref: 'BlogPost'
+    ref: 'BlogPost' // this MUST match what's being exported from the BLOGPOST
   }]
 });
 
@@ -314,9 +314,9 @@ const User = mongoose.model('User', UserSchema);
 // the first agument controls what the collection is called inside the database
 // the first argument asks MongoDB if there is a collection called 'User'. If a collection called 'User' is not found mongoose will make one
 
-module.exports = User;
+module.exports = User; // User is referenced by the COMMENT
 
-// BLOGPOST
+// ***** BLOGPOST *****
 // LIBRARY IMPORT
 const mongoose = require('mongoose');
 
@@ -327,19 +327,17 @@ const Schema = mongoose.Schema;
 const BlogPostSchema = new Schema({
   title: String,
   content: String,
-  // comments is an array b/c the blog may potentially have multiple comments
-  // ref value must match what's being exported from comment
   comments: [{
     type: Schema.Types.ObjectId,
-    ref: 'Comment'
+    ref: 'Comment' // The comments variable is an array b/c there can be many comments. This MUST match what's being exported from the COMMENT
   }]
 });
 
 const BlogPost = mongoose.model('BlogPost', BlogPostSchema);
 
-module.exports = BlogPost;
+module.exports = BlogPost; // BlogPost is referenced by the USER
 
-// COMMENT
+// ***** COMMENT *****
 // LIBRARY IMPORT
 const mongoose = require('mongoose');
 
@@ -348,16 +346,15 @@ const Schema = mongoose.Schema;
 
 const CommentSchema = new Schema({
 	content: String,
-	// ref value must match what's being exported from User
 	user: {
 		type: Schema.Types.ObjectId,
-		ref: 'User' 	
+		ref: 'User' // this MUST match what's being exported from the USER
 	}
 });
 
 const Comment = mongoose.model('Comment', CommentSchema);
 
-module.exports = Comment;
+module.exports = Comment; // Comment is referenced by the BLOGPOST
 ```
 
-**Thoughts**:
+**Thoughts**: While theoretically speaking I understand associations between collections, I think it's going to take some time to both fully understand the concepts taught let alone new syntax applied.
