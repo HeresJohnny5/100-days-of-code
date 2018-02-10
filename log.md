@@ -267,14 +267,97 @@ I also attempted to start learning about Security and Authentication, which led 
 
 **Thoughts**: Unfortunately I was not able to code much today due to several work responsibilities and meetings. I continued to push through [The Complete Developers Guide to MongoDB](https://www.udemy.com/the-complete-developers-guide-to-mongodb/) by Stephen Grider. As mentioned above I'm still struggling with ES6 Promises and Asynchronous Code.
 
-## Day 19: February 8, 2018
+## Day 19: February 7, 2018
 
 **Progress**: So lunch time comes, my laptop is open, I'm primed and ready for an hour of code. One second later a bug I never encountered before causes me to debug for said hour. Problem is the error is still not solved. I decided to take a break and invest some time into Stephen Grider's **The Complete Developers Guide to MongoDB**. I reinforced my knowledge of *Schemas*, *Models*, *Model Instances*, *Model Queries*, and *Test Driven Development*. 
 
 **Thoughts**: Encountering the problem I mentioned above was quite frustrating, especially considering the Trello board I created has little to no wiggle room. Lesson of the day, patience is key, don't fear errors and reach out to the community when necessary. Also, it's important to understand that no matter how organized you are, more often than not things will not go as planned and that's OK. 
 
-## Day 20: February 9, 2018
+## Day 20: February 8, 2018
 
 **Progress**: I made progress on **The Complete Developers Guide to MongoDB** all while spending time on [MongoDB Docs](https://docs.mongodb.com/manual/) and [Mongoose](http://mongoosejs.com/docs/guide.html).
 
 **Thoughts**: Another fun filled day learning about test driven development, validation, relational data and NoSQL terminology/concepts. Hopefully all this prep work will help me crush my upcoming MongoDB class: Node.js for Developers. 
+
+## Day 21: February 9, 2018
+
+**Progress**: Today I made progress on **The Complete Developers Guide to MongoDB**. I learned about the pros/cons of embedded documents vs separate collections. I also learned how to create associations between multiple collections, which I know may sound lame, but let me tell you it's pretty rad!
+
+```javascript
+// USER
+// LIBRARY IMPORT
+const mongoose = require('mongoose');
+
+// LOCAL IMPORT
+const PostSchema = require('./postSchema');
+
+// SCHEMA
+const Schema = mongoose.Schema;
+
+const UserSchema = new Schema({
+  name: {
+    type: String,
+    validate: {
+      validator: (name) => name.length > 2,
+      message: 'Name must be longer than 2 characters.'
+    },
+    required: [true, 'Name is required.']
+  },
+  blogPosts: [{
+    type: Schema.Types.ObjectId,
+    ref: 'BlogPost'
+  }]
+});
+
+// MODEL
+const User = mongoose.model('User', UserSchema);
+// the first agument controls what the collection is called inside the database
+// the first argument asks MongoDB if there is a collection called 'User'. If a collection called 'User' is not found mongoose will make one
+
+module.exports = User;
+
+// BLOGPOST
+// LIBRARY IMPORT
+const mongoose = require('mongoose');
+
+// SCHEMA
+const Schema = mongoose.Schema;
+
+// a blog post will have many comments associated with it
+const BlogPostSchema = new Schema({
+  title: String,
+  content: String,
+  // comments is an array b/c the blog may potentially have multiple comments
+  // ref value must match what's being exported from comment
+  comments: [{
+    type: Schema.Types.ObjectId,
+    ref: 'Comment'
+  }]
+});
+
+const BlogPost = mongoose.model('BlogPost', BlogPostSchema);
+
+module.exports = BlogPost;
+
+// COMMENT
+// LIBRARY IMPORT
+const mongoose = require('mongoose');
+
+// SCHEMA
+const Schema = mongoose.Schema;
+
+const CommentSchema = new Schema({
+	content: String,
+	// ref value must match what's being exported from User
+	user: {
+		type: Schema.Types.ObjectId,
+		ref: 'User' 	
+	}
+});
+
+const Comment = mongoose.model('Comment', CommentSchema);
+
+module.exports = Comment;
+```
+
+**Thoughts**:
