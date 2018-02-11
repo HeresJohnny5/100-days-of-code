@@ -358,3 +358,9 @@ module.exports = Comment; // Comment is referenced by the BLOGPOST
 ```
 
 **Thoughts**: While theoretically speaking I understand associations between collections, I think it's going to take some time to both fully understand the concepts taught let alone new syntax applied.
+
+## Day 22: February 10, 2018
+
+**Progress**: Today I made progress on **The Complete Developers Guide to MongoDB**. While my day was jam packed w/ errands, I made certain to wake up early to spend more time reinforcing what I started to learn yesterday. On top of that I started to learn about pre/post middlewear and how I can add it to a model's Schema to expand functionality. 
+
+**Thoughts**: Simply put, my head is spinning from backend logic/concepts including, but not limited to, embedded documents, separate collections, Schemas, models, associations, etc...
