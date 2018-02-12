@@ -364,3 +364,9 @@ module.exports = Comment; // Comment is referenced by the BLOGPOST
 **Progress**: Today I made progress on **The Complete Developers Guide to MongoDB**. While my day was jam packed w/ errands, I made certain to wake up early to spend more time reinforcing what I started to learn yesterday. On top of that I started to learn about pre/post middlewear and how I can add it to a model's Schema to expand functionality. 
 
 **Thoughts**: Simply put, my head is spinning from backend logic/concepts including, but not limited to, embedded documents, separate collections, Schemas, models, associations, etc...
+
+## Day 23: February 11, 2018
+
+**Progress**: Today I made progress on **The Complete Developers Guide to MongoDB**. While I didn't make any significant gains, I spent the majority of the day creating a generic app using JS, MongoDB, Express, and Node.js.  
+
+**Thoughts**: While I've learned a lot over the past 11 days, I can't help think I don't have much to show for it. That got me thinking of creating something very basic, something I could possibly use both in the present and future. Something like a blog app. While I can't help roll my eyes with the idea of taking on even more responsibility, I think writing once a week would do me good, especially considering I'll be starting to learn React come March 1st.
