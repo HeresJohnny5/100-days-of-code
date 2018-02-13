@@ -370,3 +370,9 @@ module.exports = Comment; // Comment is referenced by the BLOGPOST
 **Progress**: Today I made progress on **The Complete Developers Guide to MongoDB**. While I didn't make any significant gains, I spent the majority of the day creating a generic app using JS, MongoDB, Express, and Node.js.  
 
 **Thoughts**: While I've learned a lot over the past 11 days, I can't help think I don't have much to show for it. That got me thinking of creating something very basic, something I could possibly use both in the present and future. Something like a blog app. While I can't help roll my eyes with the idea of taking on even more responsibility, I think writing once a week would do me good, especially considering I'll be starting to learn React come March 1st.
+
+## Day 24: February 12, 2018
+
+**Progress**: Today I made progress on **The Complete Developers Guide to MongoDB**. The course went from easily managable to very challenging. Stephen introduced some very sophisticated MongoDB queries which I ran into several issues trying to solve. I also started the last project of the course which introduced the [Express](https://expressjs.com/) framework.
+
+**Thoughts**: Today like any other day was faced with struggles, challenges, frustrations, sprinkled with small victories. Although I feel somewhat comfortable with MongoDB, Mongoose I realized quickly that queries can become challenging real quick and that I have a lot left to learn.
