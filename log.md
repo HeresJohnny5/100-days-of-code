@@ -381,24 +381,47 @@ module.exports = Comment; // Comment is referenced by the BLOGPOST
 
 **Progress**: Today I made progress on **The Complete Developers Guide to MongoDB**. While working on a dummy app I had an epiphany, each time I create an app I have a different workflow for creating structure for both my directories and files. After refactoring my code, I created a hierarchy which made my code more modular and clean.
 
-**Thoughts**: While the process of creating an app from scratch is starting to become more familiar, Stephen indirectly created a new file structure which at the time seemed to make little sense; the app separate from the routes, the routes separate from the controllers, the controllers separate from the models, etc. This in combination with functionality being exported, files being imported, and cross-file function invoking can make the head spin. Regardless, I truly believe there's a method to the madness and I'm hoping to incorporate a similiar modular methodology when creating future apps.
+**Thoughts**: While the process of creating an app from scratch is starting to become more familiar, Stephen indirectly created a new file structure which at the time seemed to make little sense; the app separate from the routes, the routes separate from the controllers, the controllers separate from the models, etc. This in combination with functionality being exported, files being imported, and cross-file function invoking can make the head spin. Regardless, I truly believe there's a method to the madness and I'm hoping to incorporate a similiar modular methodology when creating future apps. Below is an example of such setup.
 
 ```javascript
-// app.js
+// app.js (root directory)
+// LIBRARY IMPORT
+const express = require('express');
+const app = express();
+const mongoose = require('mongoose');
+var bodyParser = require('body-parser')
+
+// LOCAL IMPORT
+const routes = require('./routes/routes');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/dbName');
+mongoose.connect('mongodb://localhost:27017/driverAPI');
+
+// MIDDLEWEAR *** THIS MUST GO ABOVE THE ROUTE CALL ***
+// assume any incoming requst is JSON and parse it into an object
+app.use(bodyParser.json());
 
 routes(app);
 
 module.exports = app;
+```
 
-// routes.js
+```javascript
+// routes.js (routes > routes.js)
+// LOCAL IMPORT
+const DriversController = require('../controllers/drivers_controller');
+
 module.exports = (app) => {
 	// ROUTES
+	app.get('/api', DriversController.greeting);
+	
+	// CREATE DRIVER
+	app.post('/api/drivers', DriversController.create);
 };
+```
 
-// models (example)
+```javascript
+// driver.js (models > driver.js)
 // LIBRARY IMPORT
 const mongoose = require('mongoose');
 
@@ -419,12 +442,17 @@ const DriverSchema = new Schema({
 const Driver = mongoose.model('Driver', DriverSchema);
 
 module.exports = Driver;
+```
 
-// controllers (example)
+```javascript
+// drivers_controller.js (controllers > drivers_controllers.js)
 // LOCAL IMPORT
 const Driver = require('../models/driver');
 
 module.exports = {
+	greeting(req, res) {
+		res.send({greeting: 'Hello World!'});
+	},
 	create(req, res) {
 		const driverProps = req.body;
 		
@@ -432,7 +460,4 @@ module.exports = {
 			.then((driver) => res.send(driver));
 	}
 };
-
 ```
-
-
