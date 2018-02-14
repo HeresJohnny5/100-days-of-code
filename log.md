@@ -376,3 +376,63 @@ module.exports = Comment; // Comment is referenced by the BLOGPOST
 **Progress**: Today I made progress on **The Complete Developers Guide to MongoDB**. The course went from easily managable to very challenging. Stephen introduced some very sophisticated MongoDB queries which I ran into several issues trying to solve. I also started the last project of the course which introduced the [Express](https://expressjs.com/) framework.
 
 **Thoughts**: Today like any other day was faced with struggles, challenges, frustrations, sprinkled with small victories. Although I feel somewhat comfortable with MongoDB, Mongoose I realized quickly that queries can become challenging real quick and that I have a lot left to learn.
+
+## Day 25: February 13, 2018
+
+**Progress**: Today I made progress on **The Complete Developers Guide to MongoDB**. While working on a dummy app I had an epiphany, each time I create an app I have a different workflow for creating structure for both my directories and files. After refactoring my code, I created a hierarchy which made my code more modular and clean.
+
+**Thoughts**: While the process of creating an app from scratch is starting to become more familiar, Stephen indirectly created a new file structure which at the time seemed to make little sense; the app separate from the routes, the routes separate from the controllers, the controllers separate from the models, etc. This in combination with functionality being exported, files being imported, and cross-file function invoking can make the head spin. Regardless, I truly believe there's a method to the madness and I'm hoping to incorporate a similiar modular methodology when creating future apps.
+
+```javascript
+// app.js
+
+mongoose.Promise = global.Promise;
+mongoose.connect('mongodb://localhost:27017/dbName');
+
+routes(app);
+
+module.exports = app;
+
+// routes.js
+module.exports = (app) => {
+	// ROUTES
+};
+
+// models (example)
+// LIBRARY IMPORT
+const mongoose = require('mongoose');
+
+// SCHEMA
+const Schema = mongoose.Schema;
+
+const DriverSchema = new Schema({
+	email: {
+		type: String,
+		required: true
+	},
+	driving: {
+		type: Boolean,
+		default: false
+	}
+});
+
+const Driver = mongoose.model('Driver', DriverSchema);
+
+module.exports = Driver;
+
+// controllers (example)
+// LOCAL IMPORT
+const Driver = require('../models/driver');
+
+module.exports = {
+	create(req, res) {
+		const driverProps = req.body;
+		
+		Driver.create(driverProps)
+			.then((driver) => res.send(driver));
+	}
+};
+
+```
+
+
