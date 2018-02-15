@@ -461,3 +461,59 @@ module.exports = {
 	}
 };
 ```
+
+## Day 26: February 14, 2018
+
+**Progress**: Today I made progress on **The Complete Developers Guide to MongoDB**. Due to Valentines I had limited time to code, however I learned how to separate database functionality between test and development environments using environment variables, dug into Express Middleware and started a Udacity course on Promises.
+
+**Thoughts**: Although I'm still getting used to working with databases I understand the reasoning and importance to separate database functionality from one's test in comparison to development environment. I'm also starting to better understand [Express Middleware](https://expressjs.com/en/guide/using-middleware.html); example below: 
+
+```javascript
+// app.js (root directory)
+
+routes(app);
+// MIDDLEWARE
+app.use((err, req, res, next) => {
+	console.log(err);
+});
+
+module.exports = app;
+```
+
+```javascript
+// routes.js (routes > routes.js)
+
+// LOCAL IMPORT
+const DriversController = require('../controllers/drivers_controller');
+
+module.exports = (app) => {
+	// ROUTES
+	app.get('/api', DriversController.greeting);
+	
+	// CREATE DRIVER
+	app.post('/api/drivers', DriversController.create);
+};
+```
+
+```javascript
+// drivers_controller.js (controllers > drivers_controller.js)
+// LOCAL IMPORT
+const Driver = require('../models/driver');
+
+module.exports = {
+	greeting(req, res) {
+		res.send({greeting: 'Hello World!'});
+	},
+	create(req, res, next) {
+		const driverProps = req.body;
+		
+		Driver.create(driverProps)
+			.then((driver) => res.send(driver))
+			.catch(next); 
+			// if something goes wrong with a promise it calls any function that is associated with 'catch'
+			// every request handler has access to three arguments: req, res, and next
+	}
+};
+
+// if a Driver is not created the next function, which will forcibly go to the next middleware handler, which is in app.js. The err argument in the middleware will be equal to the error which was thrown from the previous middleware handler
+```
