@@ -517,3 +517,9 @@ module.exports = {
 
 // if a Driver is not created the next function, which will forcibly go to the next middleware handler, which is in app.js. The err argument in the middleware will be equal to the error which was thrown from the previous middleware handler
 ```
+
+## Day 27: February 15, 2018
+
+**Progress**: Unforutnately due to illness officially taken hold I had a short code day. I did however tinker w/ geo functionality found in Mongoose, dug into ES6 Destructuring and made some ground in Udacity's Promise course.
+
+**Thoughts**: While I didn't make much ground I did come across a great article on JavaScript Promises: [JavaScript Promises: An Introduction](https://developers.google.com/web/fundamentals/primers/promises). I plan on reading this article in full and working through Udacity's Promise course throughout the weekend, that I **Promise**.
