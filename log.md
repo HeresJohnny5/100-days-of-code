@@ -523,3 +523,15 @@ module.exports = {
 **Progress**: Unforutnately due to illness officially taken hold I had a short code day. I did however tinker w/ geo functionality found in Mongoose, dug into ES6 Destructuring and made some ground in Udacity's Promise course.
 
 **Thoughts**: While I didn't make much ground I did come across a great article on JavaScript Promises: [JavaScript Promises: An Introduction](https://developers.google.com/web/fundamentals/primers/promises). I plan on reading this article in full and working through Udacity's Promise course throughout the weekend, that I **Promise**.
+
+## Day 28: February 16, 2018
+
+**Progress**: I spent a little time today working on Node.js and MongoDB. I also started learning about [React](https://reactjs.org/) and started a new React course: [React 16 - The Complete Guide](https://www.udemy.com/react-the-complete-guide-incl-redux/).
+
+Some things I learned about React today:
+
+>React is a JavaScript library for building user interfaces. React apps are especially fast because you don't need wait for a server response to get a new page or render something new; React apps do not run on the server side, but in the browser.
+
+React apps use components when building user interfaces. Most web pages can be split up into components e.g. header, sidebar, headline, article, etc. This is especially useful because components can be built as self-contained pieces of code. This makes working in teams easier, creates more manageable code and creates reusable components.
+
+**Thoughts**: February is half over, which means I have to split up my time between continuing to learn about Node.js, MongDB and reading up on React. I spent some time today learning about React 
