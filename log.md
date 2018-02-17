@@ -530,8 +530,6 @@ module.exports = {
 
 Some things I learned about React today:
 
->React is a JavaScript library for building user interfaces. React apps are especially fast because you don't need wait for a server response to get a new page or render something new; React apps do not run on the server side, but in the browser.
+>React is a JavaScript library for building user interfaces. React apps are especially fast because you don't need wait for a server response to get a new page or render something new; React apps do not run on the server side, but in the browser. React apps use components when building user interfaces. Most web pages can be split up into components e.g. header, sidebar, headline, article, etc. This is especially useful because components can be built as self-contained pieces of code. This makes working in teams easier, creates more manageable code and creates reusable components.
 
-React apps use components when building user interfaces. Most web pages can be split up into components e.g. header, sidebar, headline, article, etc. This is especially useful because components can be built as self-contained pieces of code. This makes working in teams easier, creates more manageable code and creates reusable components.
-
-**Thoughts**: February is half over, which means I have to split up my time between continuing to learn about Node.js, MongDB and reading up on React. I spent some time today learning about React 
+**Thoughts**: February is half over, which means I have to split up my time between continuing to learn about Node.js, MongDB and get prepared to start learning React come the 1st of March. I'm really geeked to start learning React, however I need to figure out a smart game plan to continue to learn about intermediate Node.js, MongoDB and Express.
