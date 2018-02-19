@@ -539,3 +539,9 @@ Some things I learned about React today:
 **Progress**: I Unfortunately did not get to code as much as I'd hope to today, however during said time I read up on JS Classes on the MDN, read up on ES6 thanks to one [Wes Bos](http://wesbos.com/blog/) and dug into some @reactjs blogs. 
 
 **Thoughts**: It's funny how I have more time on the weekends due to not working and all, but somehow have less time on the weekends. 
+
+## Day 30: February 18, 2018
+
+**Progress**: Today was my first real day working with React. I made progress in Maximilian's React 16 course learning about React's folder structure, React components and JSX. I created a React application using **create-react-app**.
+
+**Thoughts**: I want to thank **create-react-app** for being AWESOME and providing a quick and painless way to get a React application up and running. 
