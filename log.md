@@ -545,3 +545,11 @@ Some things I learned about React today:
 **Progress**: Today was my first real day working with React. I made progress in Maximilian's React 16 course learning about React's folder structure, React components and JSX. I created a React application using **create-react-app**.
 
 **Thoughts**: I want to thank **create-react-app** for being AWESOME and providing a quick and painless way to get a React application up and running. 
+
+## Day 31: February 19, 2018
+
+**Progress**: Today I made big progress in Maximilian's React 16 course completing the entirety of Section 3. I learned the pros/cons of class vs functional components, how to output dynamic content using the props object, the pros/cons of state vs non-state, how to handle events with eventHandlers, and how to style both by creating a separate stylesheet and via inline styles. Here's to hoping 10% of this sticks!
+
+**Thoughts**: I'm not certain if it's the best idea to attempt to start learning *React*, considering I'm just coming off attempting to learn *Node.js*, *MongoDB*, and *Express*. I can already see myself mudding up syntax from one framework to the next. I'm going to spend what little time I have tomorrow to look over the React code I wrote thus far, focusing on the **how** rather simply pay attention to the syntax. 
+
+The 1st of March is coming soon and I have to get my schedule together. Staying course, I want to continue to reinforce what I've learned thus far when discussing, *Node.js*, *MongoDB*, and *Express* all while spending the entirety of March going through Maximilian's React 16 course. Oh and I start a 7-week course via MongoDB University the 3rd week of March. Here's to staying busy!
