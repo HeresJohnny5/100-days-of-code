@@ -553,3 +553,13 @@ Some things I learned about React today:
 **Thoughts**: I'm not certain if it's the best idea to attempt to start learning *React*, considering I'm just coming off attempting to learn *Node.js*, *MongoDB*, and *Express*. I can already see myself mudding up syntax from one framework to the next. I'm going to spend what little time I have tomorrow to look over the React code I wrote thus far, focusing on the **how** rather simply pay attention to the syntax. 
 
 The 1st of March is coming soon and I have to get my schedule together. Staying course, I want to continue to reinforce what I've learned thus far when discussing, *Node.js*, *MongoDB*, and *Express* all while spending the entirety of March going through Maximilian's React 16 course. Oh and I start a 7-week course via MongoDB University the 3rd week of March. Here's to staying busy!
+
+## Day 32: February 20, 2018
+
+**Progress**: Knowing that today would be tight I decided to focus on several key concepts I've learned over the past several weeks. I jumped back into *MongoDB*, *Mongoose* and *TDD* using *Mocha*.  
+
+**Thoughts**: Somewhat off topic, but today I visited my first bike store, Trek Pittsburgh to be specific in hopes of finding my first triathlon bike. Simply put, I'm super excited and I cannot wait to start accumulating some early morning miles. I'm geeked, as stated previously, however I cannot help have anxiety with all that I hope to accomplish and what little free time I have currently.
+
+
+
+
