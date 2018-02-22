@@ -560,6 +560,12 @@ The 1st of March is coming soon and I have to get my schedule together. Staying 
 
 **Thoughts**: Somewhat off topic, but today I visited my first bike store, Trek Pittsburgh to be specific in hopes of finding my first triathlon bike. Simply put, I'm super excited and I cannot wait to start accumulating some early morning miles. I'm geeked, as stated previously, however I cannot help have anxiety with all that I hope to accomplish and what little free time I have currently.
 
+## Day 33: February 21, 2018
 
+**Progress**: Today like most week days was tight; work, work out, hang out with the wife and burn that midnight oil. I continue to struggle with asynchronous logic using JS Promises. Thank you **Node.js** and **MongoDB** for helping me apply theory to real life application.
 
+**Thoughts**: With 7 days left in February I'm trying to go back through a large portion of *The Complete Developers Guide to MongoDB*, not to mention complete the course in full prior to March 1st. Doing such I'll continue my journey to complete some type of project and/or certificate each and every month for the full year of 2018.
 
+---
+### 2018 Projects / Certifications:
++ January 2018: **M001: MongoDB Basics**
