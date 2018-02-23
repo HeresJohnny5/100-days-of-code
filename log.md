@@ -566,6 +566,12 @@ The 1st of March is coming soon and I have to get my schedule together. Staying 
 
 **Thoughts**: With 7 days left in February I'm trying to go back through a large portion of *The Complete Developers Guide to MongoDB*, not to mention complete the course in full prior to March 1st. Doing such I'll continue my journey to complete some type of project and/or certificate each and every month for the full year of 2018.
 
+## Day 34: February 21, 2018
+
+**Progress**: Today I dug into [Mongoose Validation middleware](http://mongoosejs.com/docs/validation.html) testing CRUD logic all while making some progress on *The Complete Developers Guide to MongoDB*. 
+
+**Thoughts**: While I have a lot left to learn when discussing anything backend, it's absolutely awesome when things start to click.
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: **M001: MongoDB Basics**
