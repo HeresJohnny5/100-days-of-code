@@ -572,6 +572,63 @@ The 1st of March is coming soon and I have to get my schedule together. Staying 
 
 **Thoughts**: While I have a lot left to learn when discussing anything backend, it's absolutely awesome when things start to click.
 
+## Day 35: February 21, 2018
+
+**Progress**: Today I dug into more advanced Mongo Operators while working on nested subdocuments and virtual types. 
+
+*Nested subdocuments and virtual types example*:
+```javascript
+// app.js
+// IMPORT LIBRARIES 
+const mongoose = require('mongoose');
+
+// LOCAL IMPORT
+const PostSchema = require('./postSchema');
+
+// SCHEMA
+const Schema = mongoose.Schema;
+
+const UserSchema = new Schema({
+	name: {
+		type: String,
+		validate: {
+			validator: (name) => name.length > 2,
+			message: 'Name must be longer than 2 characters.'
+		},
+		required: [true, 'Name is required.'],
+		minlength: 1,
+		trim: true
+	},
+	posts: [PostSchema],
+	likes: Number
+});
+
+UserSchema.virtual('postCount').get(function() {
+	return this.posts.length;
+});
+
+const User = mongoose.model('User', UserSchema);
+
+module.exports = User;
+
+// postSchema.js
+// IMPORT LIBRARIES
+const mongoose = require('mongoose');
+
+// SCHEMA
+const Schema = mongoose.Schema;
+
+const PostSchema = new Schema({
+	title: {
+		type: String		
+	}
+});
+
+module.exports = PostSchema;
+```
+
+**Thoughts**: A little over a month ago the statement above would have made absolutely no sense and while I'm far from being fluent in backend logic things are starting to click. I do question the pros/cons of nested subdocuments vs. model properties/methods.
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: **M001: MongoDB Basics**
