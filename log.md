@@ -626,6 +626,7 @@ const PostSchema = new Schema({
 
 module.exports = PostSchema;
 ```
++ virtual types should use ES5 functions rather fat arrow functions so that the **this** variable refers to the model rather the window object.
 
 **Thoughts**: A little over a month ago the statement above would have made absolutely no sense and while I'm far from being fluent in backend logic things are starting to click. I do question the pros/cons of nested subdocuments vs. model properties/methods.
 
