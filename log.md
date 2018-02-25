@@ -566,13 +566,13 @@ The 1st of March is coming soon and I have to get my schedule together. Staying 
 
 **Thoughts**: With 7 days left in February I'm trying to go back through a large portion of *The Complete Developers Guide to MongoDB*, not to mention complete the course in full prior to March 1st. Doing such I'll continue my journey to complete some type of project and/or certificate each and every month for the full year of 2018.
 
-## Day 34: February 21, 2018
+## Day 34: February 22, 2018
 
 **Progress**: Today I dug into [Mongoose Validation middleware](http://mongoosejs.com/docs/validation.html) testing CRUD logic all while making some progress on *The Complete Developers Guide to MongoDB*. 
 
 **Thoughts**: While I have a lot left to learn when discussing anything backend, it's absolutely awesome when things start to click.
 
-## Day 35: February 21, 2018
+## Day 35: February 23, 2018
 
 **Progress**: Today I dug into more advanced Mongo Operators while working on nested subdocuments and virtual types. 
 
@@ -629,6 +629,106 @@ module.exports = PostSchema;
 + virtual types should use ES5 functions rather fat arrow functions so that the **this** variable refers to the model rather the window object.
 
 **Thoughts**: A little over a month ago the statement above would have made absolutely no sense and while I'm far from being fluent in backend logic things are starting to click. I do question the pros/cons of nested subdocuments vs. model properties/methods.
+
+## Day 36: February 24, 2018
+
+**Progress**: Today I spent time working with non-relational associations, passing associations into models and testing associations using populate, a mongoose operator used to reference documents in other collections.
+
+```javascript
+// user.js
+// LIBRARY IMPORT
+const mongoose = require('mongoose');
+
+// LOCAL IMPORT
+const PostSchema = require('./postSchema');
+
+// SCHEMA
+const Schema = mongoose.Schema;
+
+const UserSchema = new Schema({
+	name: {
+		type: String,
+		validate: {
+			validator: (name) => name.length > 2,
+			message: 'Name must be longer than 2 characters.'
+		},
+		required: [true, 'Name is required.']
+	},
+	blogPosts: [{
+		type: Schema.Types.ObjectId,
+		ref: 'BlogPost' // this refers to the BlogPost model created in blogPost.js. Not the constant created but the first argument passed into mongoose.model
+	}],
+	// posts is solely kept to have subdocument documentation
+	posts: [PostSchema],
+	likes: Number,
+});
+
+// VIRTUAL TYPES
+// virtual types do not get persisted over to MongoDB databse and as so will not be applied in the model, but outside
+// whenever you're thinking about a property on a model that is a derivative or the product of two or more other properties a solution would be to implement a virtual type
+// the 'virtual' property tells the Schema i.e. UserSchema that you're creating a virtual type
+// virtual properties automatically invoke the function when the property is called
+// you want to use a normal function call and not a ES6 fat arrow function because you want 'this' to refer to the UserSchema 
+UserSchema.virtual('postCount').get(function() {
+	return this.posts.length;
+});
+
+// MODEL
+const User = mongoose.model('User', UserSchema);
+// the first agument controls what the collection is called inside the database
+// the first argument asks MongoDB if there is a collection called 'User'. If a collection called 'User' is not found mongoose will make one
+
+module.exports = User;
+
+// blogPost.js
+// LIBRARY IMPORT
+const mongoose = require('mongoose');
+
+// LOCAL IMPORT
+
+// SCHEMA
+const Schema = mongoose.Schema;
+
+// a blog post will have many comments associated with it
+const BlogPostSchema = new Schema({
+	title: String,
+	content: String,
+	// comments is an array b/c the blog may potentially have multiple comments
+	// ref value must match what's being exported from comment
+	comments: [{
+		type: Schema.Types.ObjectId,
+		ref: 'Comment' // this refers to the Comment model created in comment.js. Not the constant created but the first argument passed into mongoose.model
+	}]
+});
+
+const BlogPost = mongoose.model('BlogPost', BlogPostSchema);
+
+module.exports = BlogPost;
+
+// comments.js
+// LIBRARY IMPORT
+const mongoose = require('mongoose');
+
+// LOCAL IMPORT
+
+// SCHEMA
+const Schema = mongoose.Schema;
+
+const CommentSchema = new Schema({
+	content: String,
+	// ref value must match what's being exported from User
+	user: {
+		type: Schema.Types.ObjectId,
+		ref: 'User' // this refers to the User model created in user.js. Not the constant created but the first argument passed into mongoose.model 	
+	}
+});
+
+const Comment = mongoose.model('Comment', CommentSchema);
+
+module.exports = Comment;
+```
+
+**Thoughts**: Although I was able to code for several hours today I can't help think it's never enough. Regardless, I feel I made some ground with learning more advanced *Node.js / Mongoose / MongoDB* topics.
 
 ---
 ### 2018 Projects / Certifications:
