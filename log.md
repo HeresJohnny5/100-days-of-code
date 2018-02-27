@@ -736,6 +736,12 @@ module.exports = Comment;
 
 **Thoughts**: It's been an amazing month learning about *Node.js, Mongoose, Schemas, models, instances, MongoDB, non-realational database structure, collections, documents, fields, TDD, Promises, asynchronous code, etc.* While I'm geeked to start learning about React I have to figure out some way to find time that I don't have to continue to learn about *Node.js, Mongoose, and MongoDB*. Luckily I start a MongoDB class come March 20th. Here's to time, or lack thereof.
 
+## Day 38: February 26, 2018
+
+**Progress**: While I made some progress in *The Complete Developers Guide to MongoDB* today, I still have 11 more videos to complete before EOD Wednesday 2/28. It shouldn't be a issue, however the section deals with many advanced Mongoose operations and features. 
+
+**Thoughts**: Although I've mentioned this several times before, I'm super happy to have spent the past month plus learning backend logic. That and I'm hoping to find a way to continue to learn and reinforce my understanding of backend logic while I embark on a new journey to learn React. 
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: **M001: MongoDB Basics**
