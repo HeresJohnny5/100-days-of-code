@@ -742,6 +742,12 @@ module.exports = Comment;
 
 **Thoughts**: Although I've mentioned this several times before, I'm super happy to have spent the past month plus learning backend logic. That and I'm hoping to find a way to continue to learn and reinforce my understanding of backend logic while I embark on a new journey to learn React. 
 
+## Day 39: February 27, 2018
+
+**Progress**: Today I solved an advanced MongoDB challenge using Mongoose queries in conjunction with MongoDB query selectors. I made progress in The Complete Developers Guide to MongoDB (wrap up tomorrow) and had the pleasure of listening to some amazing code podcasts.
+
+**Thoughts**: While I've listened to the [Learn to Code with Me](https://learntocodewith.me/podcast/) podcast before, it's been a hot minute since I listened to the podcast or for that matter any code type podcast. During my morning commute I came across a podcast tagline that resonated with me; [**HOW TO LEARN TO CODE WHILE WORKING FULL TIME**](https://learntocodewith.me/podcast/learning-to-code-while-working-full-time/). It was great to hear that someone similiar to me learns code during their lunch break. It was insightful to hear that others who struggle with time or lack thereof are learning to code. I made it a point to reach out to both Michael and Laurence to thank them for the content, suggestions, and resources.
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: **M001: MongoDB Basics**
