@@ -748,6 +748,19 @@ module.exports = Comment;
 
 **Thoughts**: While I've listened to the [Learn to Code with Me](https://learntocodewith.me/podcast/) podcast before, it's been a hot minute since I listened to the podcast or for that matter any code type podcast. During my morning commute I came across a podcast tagline that resonated with me; [**HOW TO LEARN TO CODE WHILE WORKING FULL TIME**](https://learntocodewith.me/podcast/learning-to-code-while-working-full-time/). It was great to hear that someone similiar to me learns code during their lunch break. It was insightful to hear that others who struggle with time or lack thereof are learning to code. I made it a point to reach out to both Michael and Laurence to thank them for the content, suggestions, and resources.
 
+## Day 40: February 27, 2018
+
+**Progress**: Well hot dog, 40 days down and February has come and gone. Today I completed The Complete Developers Guide to MongoDB and finalized my Trello board for all of March. 
+
+**Thoughts**: I cannot help feel both a sense of anxiety and excitement for my goals starting tomorrow.
+
+*March Goals*:
++ Complete [Academind NodeJS/Express/MongoDB Shopping Cart](https://www.youtube.com/watch?v=-3vvxn78MH4&index=2&list=PL55RiY5tL51rajp7Xr_zk-fCFtzdlGKUp)
++ Complete no less than 140 videos of [React 16 - The Complete Guide](https://www.udemy.com/react-the-complete-guide-incl-redux/)
++ Start [M101JS: MongoDB for Node.js Developers](https://university.mongodb.com/courses/M101JS/about) on March 20th
++ Reinforce what I know of Node.js, Express, and MongoDB
+
 ---
 ### 2018 Projects / Certifications:
-+ January 2018: **M001: MongoDB Basics**
++ January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
++ February 2018: [**The Complete Developers Guide to MongoDB**](https://drive.google.com/file/d/1PkyJlQcmYOAqefWJwR4AyltqO01WcHpq/view?usp=drive_web)
