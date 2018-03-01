@@ -764,3 +764,7 @@ module.exports = Comment;
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
 + February 2018: [**The Complete Developers Guide to MongoDB**](https://drive.google.com/file/d/1PkyJlQcmYOAqefWJwR4AyltqO01WcHpq/view?usp=drive_web)
+
+---
+### Awesome Resources
++ [Learn Anything](https://learn-anything.xyz/)
