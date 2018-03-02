@@ -761,6 +761,21 @@ module.exports = Comment;
 + Reinforce what I know of Node.js, Express, and MongoDB
 
 ---
+### Over the next 31 days I want to gain a deeper understanding of React.
+
+## Day 41: March 1, 2018
+
+**Progress**: A good start to March if I don't say so myself. Today I completed 15 videos of *React 16 - The Complete Guide*. I learned about React's folder structure, class / functional components, and JSX. I also learned how to create dynamic content using the props object and/or children property. 
+
+**Thoughts**: While I most certainly don't understand how React works, I can already see the opportunity the library and it's component based methodologies present. 
+
+[*Pros*](https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-reactjs-and-react-native/):
++ Virtual DOM in ReactJS makes user experience better and developers work faster
++ ReactJS permits reusing code components, significantly saving time
++ One-direction data flow in ReactJS provides stable code
++ An open-source library
+
+---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
 + February 2018: [**The Complete Developers Guide to MongoDB**](https://drive.google.com/file/d/1PkyJlQcmYOAqefWJwR4AyltqO01WcHpq/view?usp=drive_web)
