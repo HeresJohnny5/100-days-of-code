@@ -775,6 +775,18 @@ module.exports = Comment;
 + One-direction data flow in ReactJS provides stable code
 + An open-source library
 
+## Day 42: March 2, 2018
+
+**Progress**: Today I learned the pros/cons of stateless vs stateful components, how to pass methods from a class component to functional, how to change state using class methods state and setState using bind. 
+
+**Thoughts**: In hopes of retaining information I decided to create a OneNote and write down notes of what I'm learning while I'm learning.
+
+## Day 43: March 3, 2018
+
+**Progress**: Today I learned about scope using ES6 arrow functions, dynamic content using JSX, conditionals using the ternary operator, and state checks using the render expression. I know it's only been two days, but man oh man does JSX look weird. 
+
+**Thoughts**: While it's great being exposed to so many different things, I can't help question how much of what I'm being exposed to I'm actually retaining. Unfortunately time or lack thereof is always the problem. 
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
