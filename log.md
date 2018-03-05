@@ -787,6 +787,12 @@ module.exports = Comment;
 
 **Thoughts**: While it's great being exposed to so many different things, I can't help question how much of what I'm being exposed to I'm actually retaining. Unfortunately time or lack thereof is always the problem. 
 
+## Day 44: March 4, 2018
+
+**Progress**: Today was split between React and Node.JS. I learned how to update lists efficiently using the key property, reinforced concepts I've learned over the past several days using React documentation and started to work on a fairly basic Node app.
+
+**Thoughts**: While it's great to continue to learn about React it was nice to jump back into Node.JS.
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
