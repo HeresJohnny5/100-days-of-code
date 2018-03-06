@@ -817,7 +817,8 @@ Nested in the config directory are two webpack files. Webpack is the bundling to
 
 ```javascript
 // webpack.config.dev.js
-// look for test: /\.css$/,{
+// look for test: /\.css$/,
+{
 	loader: require.resolve('css-loader'),
 	options: {
 		importLoaders: 1,
@@ -839,7 +840,7 @@ And paste into webpack.config.prod.js making sure not to overwrite minimize: tru
 
 ```javascript
 // webpack.config.prod.js
-// look for test: /\.css$/,
+// look for test: /\.css$/,
 options: {
 	importLoaders: 1,
 	module: true,
