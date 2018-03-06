@@ -793,6 +793,68 @@ module.exports = Comment;
 
 **Thoughts**: While it's great to continue to learn about React it was nice to jump back into Node.JS.
 
+## Day 45: March 5, 2018
+
+**Progress**: Today I made progress in Maximillian's React - 16 course learning a ton regarding styles in React. I learned the pros/cons of inlines styles vs external stylesheets, tinkered with the Radium module, and learned how to configure webpack to implement CSS modules. 
+
+*Inline Styles vs Stylesheets*:
++ Styles applied to any external CSS file are globally scoped
++ Applying inline styles can be beneficial if you want to style something specific, however inline styles do have several disadvantages, one being inline styles cannot harness the full power of CSS e.g. pseudo selectors i.e. hover animations
+
+[npm: radium](https://www.npmjs.com/package/radium) - Radium is a set of tools to manage inline styles on React elements. It gives you powerful styling capabilities without CSS. Using Radium you can harness *pseudo selectors* or *media queries* with *inline styles*.
+
+**CSS Modules**:
+When using scoped CSS modules you need to configure the built configuration of your project. The *eject* command grants you access to said configuration. Terminal prompt **npm run eject** will convert your 'everything is managed for me project' into 'everything is managed for me, but I can edit the configuration project'.
+
+When using Git to track application changes, you want to make sure to add / commit all changes before you run npm run eject.
+
+**IMPORTANT**
+You cannot return back to the way your application was after running npm run eject
+
+Directories *scripts* and *config* will be created after running npm run eject.
+
+Nested in the config directory are two webpack files. Webpack is the bundling tool which applies all kinds of transformations and optimizations on your files and bundles them together; CSS is part of the files which are bundled and such is the place you can configure your CSS files.
+
+```javascript
+// webpack.config.dev.js
+// look for test: /\.css$/,{
+	loader: require.resolve('css-loader'),
+	options: {
+		importLoaders: 1,
+		module: true,
+		localIdentName: '[name]__[local]__[hash:base64:5]'
+	},
+}
+
+// ***IMPORTANT** the __ are two underscores, not dashes
+```
+
+Copy the following:
+```javascript
+importLoaders: 1,
+module: true,
+localIdentName: '[name]__[local]__[hash:base64.5]'
+```
+And paste into webpack.config.prod.js making sure not to overwrite minimize: true nor sourceMap: shouldUseSourceMap
+
+```javascript
+// webpack.config.prod.js
+// look for test: /\.css$/,
+options: {
+	importLoaders: 1,
+	module: true,
+	localIdentName: '[name]__[local]__[hash:base64:5]',
+	minimize: true,
+	sourceMap: shouldUseSourceMap,
+}
+```
+
+**IMPORTANT: You need to restart your development server before changes will be visible.**
+
+Now when you import *'./App.css';* it will now actually scope the CSS classes in App.css to the component where it's imported.
+
+**Thoughts**: The cross between HTML, CSS, and JavaScript AKA JSX continues to blow my mind. I for one cannot wait to wrap my head around this concept/logic. 
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
