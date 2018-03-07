@@ -856,6 +856,12 @@ Now when you import *'./App.css';* it will now actually scope the CSS classes in
 
 **Thoughts**: The cross between HTML, CSS, and JavaScript AKA JSX continues to blow my mind. I for one cannot wait to wrap my head around this concept/logic. 
 
+## Day 46: March 6, 2018
+
+**Progress**: Today I made progress in Maximillian's React - 16 course; I learned about error handling in React using *React Dev Tools* and [Error Boundaries](https://reactjs.org/blog/2017/07/26/error-handling-in-react-16.html). Today also hit me like a freight train; stupid cold hit hard. 
+
+**Thoughts**: I've remained unscathed both last year and this year, however my time has officially run out. Here's to hoping this cold doesn't overstay its welcome; sleeping on the couch is getting quite old.
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
