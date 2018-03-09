@@ -868,6 +868,12 @@ Now when you import *'./App.css';* it will now actually scope the CSS classes in
 
 **Thoughts**: Other than seeing the Doctor I spent the majority of the day resting. Looks as if I have a upper respitory infection. Here's to hoping I get better sooner rather than later.
 
+## Day 48: March 8, 2018
+
+**Progress**: I suppose it's normal to have days where nothing seems to make much sense. I attempted to dive deeper into React components and React internals and came out with more questions than answers. 
+
+**Thoughts**: Today unfortunately was not a great day. There are times in my coding path where I question what I'm doing and will all this work mean something in the long run. That and I continue to fear that what I've learned in the past I cannot remember in the present.  
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
