@@ -874,6 +874,12 @@ Now when you import *'./App.css';* it will now actually scope the CSS classes in
 
 **Thoughts**: Today unfortunately was not a great day. There are times in my coding path where I question what I'm doing and will all this work mean something in the long run. That and I continue to fear that what I've learned in the past I cannot remember in the present.  
 
+## Day 51: March 11, 2018
+
+**Progress**: While I have not logged a post in my log over the past two days I have continued to code. Today I wrapped up my first week's lectures for Intro to ReactJS reinforcing my understanding of React components and I took my first assessment passing w/ a 90%! 
+
+**Thoughts**: While reading someone's code can be challenging at times, writing code from scratch can be downright impossible. That being said I've decided to focus my efforts solely on edX's Introduction to React. I'm hopeful this will help me write more code and less watch others. 
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
