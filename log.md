@@ -880,6 +880,14 @@ Now when you import *'./App.css';* it will now actually scope the CSS classes in
 
 **Thoughts**: While reading someone's code can be challenging at times, writing code from scratch can be downright impossible. That being said I've decided to focus my efforts solely on edX's Introduction to React. I'm hopeful this will help me write more code and less watch others. 
 
+## Day 52: March 12, 2018
+
+**Progress**: While it took longer than expected I wrapped up Module 1 for edX Intro to React. It's neat how React promotes component type brainstorming before writing code. Although it's nothing to gawk over below is my codePen.
+
+[Module 1 Assignment Submissions / React Transportation](https://codepen.io/HeresJohnny5/pen/JLdoXa?editors=0110)
+
+**Thoughts**: While today was somewhat of a struggle, it was nice to feel both challenged and accomplished completing my first module. 
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
