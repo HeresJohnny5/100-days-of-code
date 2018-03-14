@@ -888,6 +888,12 @@ Now when you import *'./App.css';* it will now actually scope the CSS classes in
 
 **Thoughts**: While today was somewhat of a struggle, it was nice to feel both challenged and accomplished completing my first module. 
 
+## Day 53: March 13, 2018
+
+**Progress**: Today I completed a large chunk of W2 of edX Intro to React where I started to learn about component lifecycle. While things are starting to make more sense, I def. have a lot to learn. #100DaysOfCode
+
+**Thoughts**: Funny b/c the reason I decided to stop taking the React 16 course on Udemy and focus on the Introduction to React via edX was because of component lifecycle. Now that things are starting to make more sense I plan on going back to Maximillian's course, chipping away at the content while at work. If all goes as planned I should have W2 complete by Friday.
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
