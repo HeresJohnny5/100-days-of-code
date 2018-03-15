@@ -894,6 +894,63 @@ Now when you import *'./App.css';* it will now actually scope the CSS classes in
 
 **Thoughts**: Funny b/c the reason I decided to stop taking the React 16 course on Udemy and focus on the Introduction to React via edX was because of component lifecycle. Now that things are starting to make more sense I plan on going back to Maximillian's course, chipping away at the content while at work. If all goes as planned I should have W2 complete by Friday.
 
+## Day 54: March 14, 2018
+
+**Progress**: Today I had to make up ground on another edX course I signed up for: Web App Development with the Power of Node.js. I completed my first two weeks and passed both tests. 
+
+**Thoughts**: I def. had some anxiety after receiving a email from edX stating that I've yet to start a course I signed up for last week. Long story short I signed up for several classes thinking I could just take them at my leizure, which I still belive is the case, however the email mentioned that I was behind, etc. The first week was refresher for the most part, however the second week provided context on some deeper level JavaScript concepts e.g. **function constructors**, **scope**, **higher level functions**, **closures**, **prototypes**, **inheritance**, **apply and bind**, etc...
+
+```javascript
+var demo = {
+	name: 'John',
+	gender: 'Male',
+	age: 39,
+	testThis: function() {
+		return this;
+    }
+};
+
+demo.testThis();
+
+// the 'this' variable of a method, which is a function nested in an object will reference the object
+```
+
+```javascript
+var demo = {
+	name: 'John',
+	gender: 'Male',
+	age: 39,
+	testMethod: function() {
+		let self = this;		
+
+		return function testFunction() {
+			return self;
+        }
+    }
+};
+
+demo.testMethod()();
+
+// the 'this' variable of a function will reference the global object and not the object. You can use a hack by setting the value of a variable nested inside the method to reference the 'this'
+```
+
+```javascript
+var demo = {
+	name: 'John',
+	gender: 'Male',
+	age: 39,
+	testMethod: function() {
+		return (function testFunction() {
+			return this
+        }.bind(this));
+    }
+};
+
+demo.testMethod()();
+
+// by using the bind method you can bind this to the method which will grant the nested function to access the 'this' variable
+```
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
