@@ -951,6 +951,12 @@ demo.testMethod()();
 // by using the bind method you can bind this to the method which will grant the nested function to access the 'this' variable
 ```
 
+## Day 55: March 15, 2018
+
+**Progress**: Today I wrapped up Week 3 of edX Web App Development with the Power of Node.js reinforcing my understanding of Node.js, express, MongoDB and Mongoose. I passed the test w/ 100%. One more week and I'll wrap up my first edX course. #100DaysOfCode
+
+**Thoughts**: Not much in thoughts today outside of being super tired, which is very uncommon of me. I'm really looking forward to getting back to the gym and more importantly getting past this stupid cold.
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
