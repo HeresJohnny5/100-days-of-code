@@ -957,6 +957,12 @@ demo.testMethod()();
 
 **Thoughts**: Not much in thoughts today outside of being super tired, which is very uncommon of me. I'm really looking forward to getting back to the gym and more importantly getting past this stupid cold.
 
+## Day 56: March 16, 2018
+
+**Progress**: The past two days have been quite busy working on an internal site for work. Today I was able to make my way through a portion of edX Web App Development with the Power of Node.js learning about data visualizations using D3. #100DaysOfCode 
+
+**Thoughts**: Taking another's code I was able to reverse engineer a visually appealing filter system for a work project. While I'm happy everything is in working order I have much to learn from the code.
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
