@@ -963,6 +963,12 @@ demo.testMethod()();
 
 **Thoughts**: Taking another's code I was able to reverse engineer a visually appealing filter system for a work project. While I'm happy everything is in working order I have much to learn from the code.
 
+## Day 57: March 17, 2018
+
+**Progress**: Wrapped up edX Web App Development with the Power of Node.js yesterday. Ran out of time, so I was unable to post on Twitter. Today I'm planning on doing a crash course w/ Bootstrap as I've been asked to create an internal site for work using the framework. #100DaysOfCode
+
+**Thoughts**: The edX course was nice and while short helped solidify some Node.js concepts. The course introduced a application and videos on how the application was made. I plan on going through the code on my own and then going through the videos an additional time.
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
