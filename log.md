@@ -969,6 +969,16 @@ demo.testMethod()();
 
 **Thoughts**: The edX course was nice and while short helped solidify some Node.js concepts. The course introduced a application and videos on how the application was made. I plan on going through the code on my own and then going through the videos an additional time.
 
+## 58: March 18, 2018
+
+**Progress**: Preparing for a long day tomorrow I spent a good chunk of the day learning about Bootstrap 4 and it's features, including, but not limited to:
++ Flexbox grid system
++ Cards
++ JavaScript widgets
++ A little bit of SASS
+
+**Thoughts**: While I've done things using the Bootstrap framework before it's all been trial by fire. I started a new course [Bootstrap 4 From Scratch With 5 Projects](https://www.udemy.com/bootstrap-4-from-scratch-with-5-projects/) which I really think will give me a better understanding of the framework.
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
