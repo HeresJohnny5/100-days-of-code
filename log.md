@@ -979,6 +979,12 @@ demo.testMethod()();
 
 **Thoughts**: While I've done things using the Bootstrap framework before it's all been trial by fire. I started a new course [Bootstrap 4 From Scratch With 5 Projects](https://www.udemy.com/bootstrap-4-from-scratch-with-5-projects/) which I really think will give me a better understanding of the framework.
 
+## 59: March 21, 2008
+
+**Progress**: While I haven't posted in a day or two, I've been extremely productive learning Bootstrap 4, spending time on docs and starting another class: M101JS: MongoDB for Node.js Developers, which I plan to start today. A
+
+**Thoughts**: I came across [2018 Stack Overflows Developer Survey Results](https://insights.stackoverflow.com/survey/2018/) which I'm not sure when I'll have time, but need to make time to review.
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
