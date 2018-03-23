@@ -979,11 +979,17 @@ demo.testMethod()();
 
 **Thoughts**: While I've done things using the Bootstrap framework before it's all been trial by fire. I started a new course [Bootstrap 4 From Scratch With 5 Projects](https://www.udemy.com/bootstrap-4-from-scratch-with-5-projects/) which I really think will give me a better understanding of the framework.
 
-## 59: March 21, 2008
+## 59: March 21, 2018
 
 **Progress**: While I haven't posted in a day or two, I've been extremely productive learning Bootstrap 4, spending time on docs and starting another class: M101JS: MongoDB for Node.js Developers, which I plan to start today. A
 
 **Thoughts**: I came across [2018 Stack Overflows Developer Survey Results](https://insights.stackoverflow.com/survey/2018/) which I'm not sure when I'll have time, but need to make time to review.
+
+## 60: March 22, 2018
+
+**Progress**: Today I completed a couple videos on **Bootstrap 4 From Scratch With 5 Projects**. I spent time on Bootstrap docs as I continue to flesh out a site I'm creating for work. I spent some time working with the [Magnific Popup plugin](http://dimsemenov.com/plugins/magnific-popup/) and made some ground in M101JS: MongoDB for Node.js Developers.  
+
+**Thoughts**: The past several weeks have been crazy busy at work and unfortunately I don't see that changing anytime soon. This is going to make it extremely difficult to attempt to do several classes at any given time. If all goes as planned I'll complete the Bootstrap 4 course and be 4-5 weeks into the MongoDB course.   
 
 ---
 ### 2018 Projects / Certifications:
