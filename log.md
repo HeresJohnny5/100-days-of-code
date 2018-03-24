@@ -989,7 +989,13 @@ demo.testMethod()();
 
 **Progress**: Today I completed a couple videos on **Bootstrap 4 From Scratch With 5 Projects**. I spent time on Bootstrap docs as I continue to flesh out a site I'm creating for work. I spent some time working with the [Magnific Popup plugin](http://dimsemenov.com/plugins/magnific-popup/) and made some ground in M101JS: MongoDB for Node.js Developers.  
 
-**Thoughts**: The past several weeks have been crazy busy at work and unfortunately I don't see that changing anytime soon. This is going to make it extremely difficult to attempt to do several classes at any given time. If all goes as planned I'll complete the Bootstrap 4 course and be 4-5 weeks into the MongoDB course.   
+**Thoughts**: The past several weeks have been crazy busy at work and unfortunately I don't see that changing anytime soon. This is going to make it extremely difficult to attempt to do several classes at any given time. If all goes as planned I'll complete the Bootstrap 4 course and be 4-5 weeks into the MongoDB course.  
+
+## 61: March 23, 2018
+
+**Progress**: Today I completed a section of Bootstrap 4 From Scratch With 5 Projects, spent some time on Bootstrap 4 docs and completed my W1 lectures and homework for M101JS: MongoDB for Node.js Developers. 
+
+**Thoughts**: I believe I've discussed this in a previous rant, but I'm getting better and better and both reading and understanding someone else's code. Now if I can just feel as comfortable if not more so with writing code from scratch.
 
 ---
 ### 2018 Projects / Certifications:
