@@ -997,6 +997,12 @@ demo.testMethod()();
 
 **Thoughts**: I believe I've discussed this in a previous rant, but I'm getting better and better and both reading and understanding someone else's code. Now if I can just feel as comfortable if not more so with writing code from scratch.
 
+## 61: March 27, 2018
+
+**Progress**: While it's been a couple days I'm still cranking out code. I'm applying finishing touches to a site I made for work, have gotten quite good at both reading and understanding Bootstrap docs, and started to dabble with SCSS and Gulp.
+
+**Thoughts**: While I don't fully understand the **Gulp** pipeline it took all but two seconds to realize the potential time savings it can provide. Looks like learning Gulp is yet another thing to place on my never ending **ToDo** list.
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
