@@ -1003,6 +1003,12 @@ demo.testMethod()();
 
 **Thoughts**: While I don't fully understand the **Gulp** pipeline it took all but two seconds to realize the potential time savings it can provide. Looks like learning Gulp is yet another thing to place on my never ending **ToDo** list.
 
+## 62: March 28, 2018
+
+**Progress**: Today I completed two videos of Bootstrap 4 From Scratch With 5 Projects, I started one of the five projects all while working on my own, and I wrapped up the 2nd week of lectures for M101: MongoDB for Node.js Developers.
+
+**Thoughts**: I'm starting to wrap up the site I've been working on at work only to have my senior ask to make some last minute changes, which do not make a lick of sense. Luckily I was able to make a case, find a solution with the help of another's code I found on CodePen and overcome some coding challenges I faced in a short period of time. 
+
 ---
 ### 2018 Projects / Certifications:
 + January 2018: [**M001: MongoDB Basics**](https://drive.google.com/file/d/1nycVB8u9t5B3x0MDnqr7gU5CBdYgPc7s/view)
