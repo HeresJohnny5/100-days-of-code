@@ -1007,7 +1007,13 @@ demo.testMethod()();
 
 **Progress**: Today I completed two videos of Bootstrap 4 From Scratch With 5 Projects, I started one of the five projects all while working on my own, and I wrapped up the 2nd week of lectures for M101: MongoDB for Node.js Developers.
 
-**Thoughts**: I'm starting to wrap up the site I've been working on at work only to have my senior ask to make some last minute changes, which do not make a lick of sense. Luckily I was able to make a case, find a solution with the help of another's code I found on CodePen and overcome some coding challenges I faced in a short period of time. 
+**Thoughts**: I'm starting to wrap up the site I've been working on at work only to have my senior ask to make some last minute changes, which do not make a lick of sense. Luckily I was able to make a case, find a solution with the help of another's code I found on CodePen and overcome some coding challenges I faced in a short period of time.
+
+## 64: April 1, 2018
+
+**Progress**: While it's been a couple days since my last post, I've been plugging away with both Bootstrap 4 and MongoDB. Today I completed all of my 2nd week homework for MongoDB University. Next week I'll be wrapping up the site I've been working on for work. 
+
+**Thoughts**: I'm excited to be wrapping up a site I've been working on for several weeks at work. Here's to hoping I can contine web based projects at work.
 
 ---
 ### 2018 Projects / Certifications:
