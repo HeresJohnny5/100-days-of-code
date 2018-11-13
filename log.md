@@ -20,3 +20,6 @@ I’m currently in the process of making my way through a Udemy course by Angela
 Wanting to gain a deeper understanding to intermediate JavaScript concepts I spent a little over an hour watching a Lynda.com course by Shaun Wassell: [Learning Functional Programming with JavaScript](https://www.lynda.com/JavaScript-tutorials/Learning-Functional-Programming-JavaScript/585272-2.html). Thus far I’ve learned core concepts of functional programming, what differentiates functional programming and Object-Oriented programming, assigning functions to variables via function expressions, and how you can passing functions as arguments via higher-order functions.
 
 **Today's Thoughts**:
+It’s always a daunting task to start learning a new topic, language, and/or framework and while Apple Developer Documentation is vast, I’m still having a difficult time using the resource. Like anything else I’ve learned thus far it’s just a matter of time and continued exposure. 
+
+One of the many thing I continue to love regarding the development community is the infinite amount of amazing resources available, let alone people willing to help. I spent a good portion of the day communicating with peers via Udemy and 100 Days of Code Slack Channel.
