@@ -43,7 +43,7 @@ So it’s been a hot minute since I last attempted any code related challenge. W
 
 `"WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWB"  ->  "12WB12W3B24WB"`
 
-While my solution passed all Exercism.io unit tests I can't help think I overcomplicated the problem.
+While my solution passed all Exercism.io unit tests I can't help think I overcomplicated the problem. I still have the decoding part of the challenge to solve before submitting my solution.
 
 ```javascript
 export const encode = (passedStr) => {
