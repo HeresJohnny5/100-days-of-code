@@ -43,9 +43,10 @@ So it’s been a hot minute since I last attempted any code related challenge. W
 
 `"WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWB"  ->  "12WB12W3B24WB"`
 
-While my solution passed all Exercism.io unit tests I can't help think I overcomplicated the problem. 
+While my solution passed all Exercism.io unit tests I can't help think I overcomplicated the problem.
 
-`export const encode = (passedStr) => {
+```javascript
+export const encode = (passedStr) => {
 	let passedArr = passedStr.split('');
 	let arrContainer = [];
 	let finalStr = '';
@@ -76,5 +77,5 @@ While my solution passed all Exercism.io unit tests I can't help think I overcom
 
 	return finalStr;
 };
-`
+```
 
