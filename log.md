@@ -42,3 +42,39 @@ While somewhat unexpected I found myself lost in a code clinic rabbit hole. Toda
 So it’s been a hot minute since I last attempted any code related challenge. While I absolutely love the mental stimulus one obtains when wrestling through a coding exercise it can be extremely frustrating especially when the challenge you face is supposedly an easy exercise. The problem I encountered is called Run Length Encoding (RLE), which challenges the programmer to create a simple form of data compression where consecutive data elements are replaced by just one data value and count.
 
 `"WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWB"  ->  "12WB12W3B24WB"`
+
+While my solution passed all Exercism.io unit tests I can't help think I overcomplicated the problem. 
+
+`export const encode = (passedStr) => {
+	let passedArr = passedStr.split('');
+	let arrContainer = [];
+	let finalStr = '';
+	let compareChar = passedStr[0];
+	let count = 0;
+
+	if (passedStr === '') {
+		return '';
+	}
+
+	for (var i = 0; i < passedArr.length; i++) {
+		if (passedArr[i] === compareChar) {
+			count++;
+	  } else {
+			arrContainer.push(count);
+			arrContainer.push(compareChar);
+
+			compareChar = passedArr[i];
+			count = 1;
+	  }
+	};
+
+	arrContainer.push(count);
+	arrContainer.push(compareChar);
+
+	let finalArry = arrContainer.filter(el => el !== 1);
+	finalStr = finalArry.join('');
+
+	return finalStr;
+};
+`
+
