@@ -33,3 +33,12 @@ While I didn’t have much time throughout work I was able to wrap up Learning [
 Knowing that my time would be limited today I decided rather continue my iOS journey to focus on Functional Programming in JavaScript. It’s an amazing feeling, especially for those who are not F/T programmers when you recall how something works e.g. JavaScript Array higher-order functions. While I do recall higher-order function core concepts it was nice to have a refresher on how they work.
 
 I have very minimal exposure to Test Driven Development (TDD) concepts and frameworks and thus it took me a little longer than expected to get started with code challenges via Exercism. While my progress was slow at first it was nice to get exposed to how unit-tests work.
+
+### Day 3: November 14, 2018
+**Today’s Progress**:
+While somewhat unexpected I found myself lost in a code clinic rabbit hole. Today I completed several Exercism.io challenges, brushed up on some core JavaScript concepts and read an interesting article by Stephen Chapman regarding Nested IF/ELSE statements.
+
+**Today’s Thoughts**:
+So it’s been a hot minute since I last attempted any code related challenge. While I absolutely love the mental stimulus one obtains when wrestling through a coding exercise it can be extremely frustrating especially when the challenge you face is supposedly an easy exercise. The problem I encountered is called Run Length Encoding (RLE), which challenges the programmer to create a simple form of data compression where consecutive data elements are replaced by just one data value and count.
+
+`"WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWB"  ->  "12WB12W3B24WB"`
