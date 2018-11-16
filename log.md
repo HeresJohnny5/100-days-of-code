@@ -79,3 +79,45 @@ export const encode = (passedStr) => {
 };
 ```
 
+### Day 4: November 15, 2018
+**Today’s Progress**:
+Today I spent some much needed time reading up on [Swift](swift.org), played around with the [Open Weather Map API](https://openweathermap.org/) using the [Alamofire HTTP networking library](https://github.com/Alamofire/Alamofire) and wrapped up the Run Length Encoding (RLE) challenge, listed above.
+
+**Today’s Thoughts**:
+While I felt a great sense of relief being able to complete the Run Length Encoding (RLE) challenge I couldn't get myself to look at other's solutions. Call it fear, maybe a little embarassment that my solution overcomplicates what's listed as an easy challenge. Regardless, I take pride knowing that while it took longer than expected I solved the challenge and learned some new JavaScript tips and tricks along the way.
+
+After taking a mental break I have all intent to review other's code throughout tomorrow. This should allow me the opportunity to reflect let alone learn from others on how they approached the problem.    
+
+```javascript
+export const encode = (passedStr) => {
+	let passedArr = passedStr.split('');
+	let arrContainer = [];
+	let finalStr = '';
+	let compareChar = passedStr[0];
+	let count = 0;
+
+	if (passedStr === '') {
+		return '';
+	}
+
+	for (var i = 0; i < passedArr.length; i++) {
+		if (passedArr[i] === compareChar) {
+			count++;
+	  } else {
+			arrContainer.push(count);
+			arrContainer.push(compareChar);
+
+			compareChar = passedArr[i];
+			count = 1;
+	  }
+	};
+
+	arrContainer.push(count);
+	arrContainer.push(compareChar);
+
+	let finalArry = arrContainer.filter(el => el !== 1);
+	finalStr = finalArry.join('');
+
+	return finalStr;
+};
+```
