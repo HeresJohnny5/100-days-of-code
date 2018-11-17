@@ -25,6 +25,8 @@ It’s always a daunting task to start learning a new topic, language, and/or fr
 
 One of the many thing I continue to love regarding the development community is the infinite amount of amazing resources available, let alone people willing to help. I spent a good portion of the day communicating with peers via Udemy and 100 Days of Code Slack Channel.
 
+---
+
 ### Day 2: November 13, 2018
 **Today’s Progress**:
 While I didn’t have much time throughout work I was able to wrap up Learning [Functional Programming with JavaScript](https://www.lynda.com/JavaScript-tutorials/Learning-Functional-Programming-JavaScript/585272-2.html) by Shaun Wassell, complete several JavaScript code challenges via [Exercism](https://exercism.io/) and start watching a [Recursion Crash Course](https://www.youtube.com/watch?v=lMBVwYrmFZQ) by Colt Steele.
@@ -33,6 +35,8 @@ While I didn’t have much time throughout work I was able to wrap up Learning [
 Knowing that my time would be limited today I decided rather continue my iOS journey to focus on Functional Programming in JavaScript. It’s an amazing feeling, especially for those who are not F/T programmers when you recall how something works e.g. JavaScript Array higher-order functions. While I do recall higher-order function core concepts it was nice to have a refresher on how they work.
 
 I have very minimal exposure to Test Driven Development (TDD) concepts and frameworks and thus it took me a little longer than expected to get started with code challenges via Exercism. While my progress was slow at first it was nice to get exposed to how unit-tests work.
+
+---
 
 ### Day 3: November 14, 2018
 **Today’s Progress**:
@@ -79,6 +83,8 @@ export const encode = (passedStr) => {
 };
 ```
 
+---
+
 ### Day 4: November 15, 2018
 **Today’s Progress**:
 Today I spent some much needed time reading up on [Swift](swift.org), played around with the [Open Weather Map API](https://openweathermap.org/) using the [Alamofire HTTP networking library](https://github.com/Alamofire/Alamofire) and wrapped up the Run Length Encoding (RLE) challenge, listed above.
@@ -121,3 +127,12 @@ export const encode = (passedStr) => {
 	return finalStr;
 };
 ```
+
+---
+
+### Day 5: November 16, 2018
+**Today’s Progress**:
+Due to encountering a Swift bug regarding Mapping and Geographical Information System (“MGIS”) I was nowhere near as productive today as I'd hope. Regardless, I spent time on Swift docs let alone Stack Overflow. I also started a Lynda course on [Swift 4](https://www.lynda.com/Swift-tutorials/Swift-4-Essential-Training/636121-2.html) by Harrison Ferrone. 
+
+**Thoughts**:
+The past couple days have been quite frustrating, between working on code challenges and encountering bugs, however as any programmer well know is part of the job. Being relatively new to Xcode and Swift I feel the process of working through bugs is slow, however I hope with more exposure to both the tool and language it'll get quicker in time.
