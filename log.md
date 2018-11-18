@@ -147,7 +147,9 @@ Rather continue plugging away on the weather app project I decided to spend my t
 While I'm not a programmer by trade I got interested in programming after starting to learn JS. I'm really enjoying learning the differences between static and dynamic languages and unique Swift Collections e.g. Dictionaries, Sets, and Tuples.
 
 -[Dictionary](https://developer.apple.com/documentation/swift/dictionary): A collection whose elements are key-value pairs.
+
 -[Set](https://developer.apple.com/documentation/swift/set): An unordered collection of unique elements. A Set stores distinct values of the same type in a collection with no defined ordering. You can use a set instead of an array when the order of items is not important, or when you need to ensure that an item only appears once. 
+
 -[Tuple](https://medium.com/swift-programming/swift-tuple-328aecff50e7): A tuple type is a comma-separated list of zero or more types, enclosed in parentheses.
 
 
