@@ -136,3 +136,18 @@ Due to encountering a Swift bug regarding Mapping and Geographical Information S
 
 **Thoughts**:
 The past couple days have been quite frustrating, between working on code challenges and encountering bugs, however as any programmer well know is part of the job. Being relatively new to Xcode and Swift I feel the process of working through bugs is slow, however I hope with more exposure to both the tool and language it'll get quicker in time.
+
+---
+
+### Day 6: November 17, 2018
+**Today’s Progress**:
+Rather continue plugging away on the weather app project I decided to spend my time learning more about the Swift programming language using resources i.e. Swift documentation, Swift 4: Essential Training and most important trial and error using Xcode's playground.
+
+**Today's Thoughts**:
+While I'm not a programmer by trade I got interested in programming after starting to learn JS. I'm really enjoying learning the differences between static and dynamic languages and unique Swift Collections e.g. Dictionaries, Sets, and Tuples.
+
+-[Dictionary](https://developer.apple.com/documentation/swift/dictionary): A collection whose elements are key-value pairs.
+-[Set](https://developer.apple.com/documentation/swift/set): An unordered collection of unique elements. A Set stores distinct values of the same type in a collection with no defined ordering. You can use a set instead of an array when the order of items is not important, or when you need to ensure that an item only appears once. 
+-[Tuple](https://medium.com/swift-programming/swift-tuple-328aecff50e7): A tuple type is a comma-separated list of zero or more types, enclosed in parentheses.
+
+
