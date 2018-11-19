@@ -150,4 +150,24 @@ While I'm not a programmer by trade I got interested in programming after starti
 - [Set](https://developer.apple.com/documentation/swift/set): An unordered collection of unique elements. A Set stores distinct values of the same type in a collection with no defined ordering. You can use a set instead of an array when the order of items is not important, or when you need to ensure that an item only appears once. 
 - [Tuple](https://medium.com/swift-programming/swift-tuple-328aecff50e7): A tuple type is a comma-separated list of zero or more types, enclosed in parentheses.
 
+---
 
+### Day 7: November 18, 2018
+**Today’s Progress**:
+Today I refactored my first Exercism.io JS challenge based on feedback I got from a Mentor, not to mention complete the RNA-Transcript challenge. The only real challenge I encountered with the RNA-Transcript challenge was understanding how to pass a test which meant to throw an error. I spent some time learning about Application Control Flow in Swift using the guard statements.
+
+**Today's Thoughts**:
+It's becoming more and more interesting comparing one programming language to another, especially when comparing a dynamic vs static language. 
+
+- [Guard Statement](https://medium.com/@chris_dus/the-guard-statement-in-swift-fdad41b08798): A guard statement is used to transfer program control out of a scope if one or more conditions aren’t met.
+- [Swift Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
+
+*Function Parameters and Return Values*
+```
+javascript
+func sayHelloWorld() -> String {
+    return "hello, world"
+}
+print(sayHelloWorld())
+// Prints "hello, world"
+```
