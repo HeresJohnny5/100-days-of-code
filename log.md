@@ -163,8 +163,7 @@ It's becoming more and more interesting comparing one programming language to an
 - [Swift Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
 
 *Function Parameters and Return Values*
-```
-javascript
+```javascript
 func sayHelloWorld() -> String {
     return "hello, world"
 }
