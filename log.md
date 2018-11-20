@@ -170,3 +170,30 @@ func sayHelloWorld() -> String {
 print(sayHelloWorld())
 // Prints "hello, world"
 ```
+
+---
+
+### Day 8: November 19, 2018
+**Today’s Progress**:
+Today I dug deeper into Swift learning about Swift functions i.e. Overloading, Function Types, etc. I also started yet another code clinic challenge via Exercism.io. While I was able to get the code to work as expected using Google's Developer Tools I was unable to get the tests to pass.
+
+**Today's Thoughts**:
+So unlike JavaScript, Swift allows you to have multiple functions with the same name, as long as their function type or signature is different. When you have multiple functions with the same name it's called *overloading a function*. It's really useful in cases when you may need consistent functionality, but with different inputs and outputs.
+
+```javascript
+func greeting() {
+    print("Hello There.")
+}
+
+func greeting(name: String) {
+    print("Hello \(name).")
+}
+
+func greeting(firstName: String, lastName: String) -> Void {
+    print("Hello \(firstName) \(lastName).")
+}
+
+greeting()
+greeting(name: "John")
+greeting(firstName: "John", lastName: "Erickson")
+```
