@@ -197,3 +197,11 @@ greeting()
 greeting(name: "John")
 greeting(firstName: "John", lastName: "Erickson")
 ```
+
+---
+
+### Day 9: November 20, 2018
+**Today’s Progress**:
+Today I continued to learn about Swift, focusing on Classes and Structs. While at work I tinkered with two JS libraries, [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/) and [MixItUp](https://www.kunkalabs.com/mixitup/). Last, but not least I made some ground on a code clinic challenge; not being familiar w/ TDD has been quite the challenge.
+
+**Today's Thoughts**: As I continue to learn more and more about the Swift programming language I can't help compare and contrast Swift to JavaScript. While there are certainly similarities between the two programming languages i.e. programming fundamentals, there's a ton which separates the two.  
