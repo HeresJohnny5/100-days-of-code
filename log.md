@@ -14,6 +14,14 @@
 - I want to continue to learn mobile app development in iOS gaining a deeper understanding of Xcode and Swift
 - I want to continue to learn mobile app development using Google's Flutter SDK
 
+---
+
+# Accomplishments:
+- [Learning Functional Programming in JavaScript](https://drive.google.com/file/d/12BMJZH1nmxMWh2tbUCbxN_PRquVK2HdQ/view): November, 2018
+- [Swift 4 Essential Training](https://drive.google.com/open?id=1LuzLIfyTYbYP_AQSZk_TbYQWwgzhynN4): November, 2018
+
+---
+
 ### Day 1: November 12, 2018
 **Today’s Progress**:
 I’m currently in the process of making my way through a Udemy course by Angela Yu on [iOS 12 and Swift - The Complete iOS App Development Bootcamp](https://www.udemy.com/ios-12-app-development-bootcamp/). Currently I’m 33% complete and while I’ve learned a lot figure it’s a good time to reinforce what I’ve learned and apply it to a real world application; [iOS 12 weather app](https://github.com/HeresJohnny5/portfolioiOSWeatherApp). While there’s several goals I hope to accomplish within the next 100 days I hope to showcase this weather app on my portfolio site which I hope to complete early next year. 
@@ -204,4 +212,13 @@ greeting(firstName: "John", lastName: "Erickson")
 **Today’s Progress**:
 Today I continued to learn about Swift, focusing on Classes and Structs. While at work I tinkered with two JS libraries, [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/) and [MixItUp](https://www.kunkalabs.com/mixitup/). Last, but not least I made some ground on a code clinic challenge; not being familiar w/ TDD has been quite the challenge.
 
-**Today's Thoughts**: As I continue to learn more and more about the Swift programming language I can't help compare and contrast Swift to JavaScript. While there are certainly similarities between the two programming languages i.e. programming fundamentals, there's a ton which separates the two.  
+**Today's Thoughts**: As I continue to learn more and more about the Swift programming language I can't help compare and contrast Swift to JavaScript. While there are certainly similarities between the two programming languages i.e. programming fundamentals, there's a ton which separates the two. 
+
+---
+
+### Day 10: November 21, 2018
+**Today’s Progress**: While today was short lived due to work and visiting family for the holidays I was still able to get a little over an hour of code in. Today I wrapped up a Swift 4 Essentials course and started to look into [Netlify](https://www.netlify.com/) as a hosting option for my website and portfolio.
+
+**Today’s Thoughts**:
+
+
