@@ -220,5 +220,5 @@ Today I continued to learn about Swift, focusing on Classes and Structs. While a
 **Today’s Progress**: While today was short lived due to work and visiting family for the holidays I was still able to get a little over an hour of code in. Today I wrapped up a Swift 4 Essentials course and started to look into [Netlify](https://www.netlify.com/) as a hosting option for my website and portfolio.
 
 **Today’s Thoughts**:
-
+While I was able to complete the Swift 4 Essential Training course, I had some difficulties understanding the context for more advanced Swift features i.e. *Enumeration*, *Protocols*, etc.
 
