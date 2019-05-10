@@ -7,18 +7,17 @@ let techStack: string[] = ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'TypeScript
 ```
 
 ## Over the next 100 days I want to:
-- Create a portfolio website to showcase my web development talent and personal passion projects. 
+- Continue to update my portfolio website including new projects which will harness the power of *Angular*, *Node*, *SQL* and *C#*. 
 - I want to gain a deeper understanding of intermediate/advanced Vanilla JavaScript features: 
-	- Functional Programming
-	- Object Oriented Programming
-	- DOM using Vanilla JavaScript
-	- Closures
-	- Asynchronous code
-- I want to invest dedicated time each and every week in code clinics i.e. *Exercism* 
-- I want to gain a deeper understanding of CSS
-- I want to continue to learn React
-- I want to continue to learn mobile app development in iOS gaining a deeper understanding of Xcode and Swift
-- I want to continue to learn mobile app development using Google's Flutter SDK
+	- *Functional Programming*
+	- *Object Oriented Programming*
+	- *DOM using Vanilla JavaScript*
+	- *Closures*
+	- *Asynchronous code*
+- Being new to the Angular framework I'm investing a lot of my time w/ online resources to understand the fundamentals and soon move into more intermediate level concepts:
+  - Udemy courses: [Angular 7 (formerly Angular 2) - The Complete Guide](https://www.udemy.com/the-complete-guide-to-angular-2/) by *Maximilian Schwarzmüller*
+  - Udemy course: [The Complete Angular Course: Beginner to Advanced](https://www.udemy.com/the-complete-angular-master-class/) by *Mosh Hamedani*
+- I want to read in full **Clean Code** by *Robert C. Martin*.
 
 ---
 
