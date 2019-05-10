@@ -2,16 +2,9 @@
 ### I recently accepted a Software Engineer role w/ a large enterprise business in the greater Pittsburgh footprint. This will be my very first F/T developer role and thus I'm excited, nervous and above all else anxious. On top of that I recently accepted an Assistant Instructor role w/ a local coding bootcamp called [Upstream Coding](https://www.upstreamcoding.com/) where I'll student teach [Modern Website Development](https://www.upstreamcoding.com/series/modern-web-development--coding-bootcamp--pittsburgh/)
 
 The tech stack I'll be working with in my new role will include:
-* HTML
-* CSS
-* Bootstrap
-* JavaScript
-* TypeScript
-* jQuery
-* Angular
-* Node
-* SQL
-* C#
+```javascript
+let techStack: string[] = ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'TypeScript', 'jQuery', 'Angular', 'Node', 'SQL', 'C#'];
+```
 
 ## Over the next 100 days I want to:
 - Create a portfolio website to showcase my web development talent and personal passion projects. 
