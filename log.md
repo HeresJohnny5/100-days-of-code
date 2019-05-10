@@ -1,4 +1,6 @@
 # 100 Days of Code: Round 1 - John Erickson
+### I recently accepted a Software Engineer role w/ a large enterprise business in the greater Pittsburgh footprint. This will be my very first F/T developer role and thus I'm excited, nervous and above all else anxious. On top of that I recently accepted an Assistant Instructor role w/ a local coding bootcamp called [Upstream Coding](https://www.upstreamcoding.com/) where I'll student teach [Modern Website Development](https://www.upstreamcoding.com/series/modern-web-development--coding-bootcamp--pittsburgh/)
+
 ### I attempted to complete 100 Days of Code earlier this year however I fell short 64 days in. While I continued my coding journey dabbling in React, Flutter, and Swift post 64 days, I did not commit daily via GitHub nor on social feed via Twitter feed and thus I'm starting anew. 
 ## Over the next 100 days I want to:
 - Create a portfolio website to showcase my web development talent and personal passion projects. 
