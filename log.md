@@ -17,7 +17,7 @@ let workTechStack: string[] = ['HTML', 'CSS', 'SASS', 'Bootstrap', 'JavaScript',
 	- Udemy course: [The Complete Angular Course: Beginner to Advanced](https://www.udemy.com/the-complete-angular-master-class/) by *Mosh Hamedani*
 - With having a better understanding of JavaScript frameworks and libraries I hope to start learning React no different than Angular:
 	- Udemy course: [The Modern React Bootcamp (Hooks, Context, NextJS, Router)](https://www.udemy.com/course/modern-react-bootcamp/) by *Colt Steele*
-- Continue to update my [portfolio](https://johnerickson.netlify.com/) website including new projects which will showcase my abilities and harness the power of *Advanced CSS/SASS*, *Angular*, *Angular Material*, *React*, *RxJS and/or Redux Patterns*, *Node*, *MongoDB* and *C#*. 
+- Continue to update my <a href="https://johnerickson.netlify.com/" target="_blank">portfolio</a> website including new projects which will showcase my abilities and harness the power of *Advanced CSS/SASS*, *Angular*, *Angular Material*, *React*, *RxJS and/or Redux Patterns*, *Node*, *MongoDB* and *C#*. 
 - I want to read in full **Clean Code** by *Robert C. Martin*.
 
 ---
