@@ -5,6 +5,7 @@ The tech stack I use in my current role:
 ```javascript
 let workTechStack: string[] = ['HTML', 'CSS', 'SASS', 'Bootstrap', 'JavaScript', 'jQuery', 'TypeScript', 'Angular', 'C#'];
 ```
+#### Use Command + Click (Mac) or Control + Click (Windows) when clicking hyperlinks to keep this page open and open the link in a new browser window
 
 ## Over the next 100 days I want to:
 - I want to gain a deeper understanding of intermediate/advanced Vanilla JavaScript: 
