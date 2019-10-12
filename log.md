@@ -13,9 +13,11 @@ let workTechStack: string[] = ['HTML', 'CSS', 'SASS', 'Bootstrap', 'JavaScript',
 	- *Closures*
 	- *Asynchronous JavaScript using several APIs: callbacks, Promises, async/await*
 - Working with Angular for the past several months in a production setting has provided me a solid understanding of fundamentals of the framework, however, I have much to learn and thus I'm investing a lot of my free time w/ online resources to understand intermediate-level concepts: 
-	- Udemy courses: [Angular 7 (formerly Angular 2) - The Complete Guide](https://www.udemy.com/the-complete-guide-to-angular-2/) by *Maximilian Schwarzmüller*
-	- Udemy course: [The Complete Angular Course: Beginner to Advanced](https://www.udemy.com/the-complete-angular-master-class/) by *Mosh Hamedani*	
-- Continue to update my portfolio website including new projects which will harness the power of *Advanced CSS/SASS*, *Angular*, *Angular Material*, *React*, *RxJS and/or Redux Patterns*, *Node*, *MongoDB* and *C#*. 
+	- Udemy course: [Angular 7 (formerly Angular 2) - The Complete Guide](https://www.udemy.com/the-complete-guide-to-angular-2/) by *Maximilian Schwarzmüller*
+	- Udemy course: [The Complete Angular Course: Beginner to Advanced](https://www.udemy.com/the-complete-angular-master-class/) by *Mosh Hamedani*
+- With having a better understanding of JavaScript frameworks and libraries I hope to start learning React no different than Angular:
+	- Udemy course: [The Modern React Bootcamp (Hooks, Context, NextJS, Router)](https://www.udemy.com/course/modern-react-bootcamp/) by *Colt Steele*
+- Continue to update my portfolio website including new projects which will showcase my abilities and harness the power of *Advanced CSS/SASS*, *Angular*, *Angular Material*, *React*, *RxJS and/or Redux Patterns*, *Node*, *MongoDB* and *C#*. 
 - I want to read in full **Clean Code** by *Robert C. Martin*.
 
 ---
