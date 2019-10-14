@@ -67,6 +67,13 @@ export default Pokecard;
 // if you want access to props in the constructor function you MUST pass props into the super function 
 ```
 
+#### Setting State Correctly
+You never want to manipulate the State directly instead you want to go through React's ```setState()``` function, which is a built-in React method for changing a Component's state. Think of ```setState()``` as a request rather than an immediate command to update the Component. For better perceived performance, React may delay it, and then update several Components in a single pass. React does not guarantee that the state changes are applied immediately.
+
+You can call ```setState()``` in any instance method **except the constructor**. The constructor function is meant to initialize a Component's state, not change it. 
+
+The ```setState()``` function takes an object describing the state change and patches the state object. Keys that you do not specify will not change.
+
 ---
 
 ### Day 2: October 13, 2019
