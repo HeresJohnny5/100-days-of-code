@@ -42,15 +42,29 @@ In React, State is an instance attribute on a Component. React State is a Plain 
 If your Component is stateless, you can omit the constructor function, however if you're building a Component with state, you need a standard React constructor.
 
 ```javascript
-constructor(props) {
-	super(props);
-	this.state = {
-		// initial state goes here
-	};
+import React, { Component } from 'react';
+
+class Pokecard extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			// initial state goes here
+		};
+	}
+	
+	render() {
+		return (
+			<div></div>
+		)
+	}
+
 }
+export default Pokecard;
 // constructor takes one argument, props
 // you MUST call super(props) at the start of the constructor, which registers your class as a React Component
 // this.state is React boilerplate and cannot be changed
+// anytime a class extends from another you MUST invoke the constructor function of the parent class before you do anything else. In React you do this by invoking the super function
+// if you want access to props in the constructor function you MUST pass props into the super function 
 ```
 
 ---
