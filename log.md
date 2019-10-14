@@ -35,6 +35,23 @@ let workTechStack: string[] = ['HTML', 'CSS', 'SASS', 'Bootstrap', 'JavaScript',
 - I completed *Section 6: Introducing State* in Colt Steele's *The Modern React Bootcamp*.
 	- Concepts Learned:
 		- How to initialize, set and change state without mutating data.
+		
+#### What is React State?
+In React, State is an instance attribute on a Component. React State is a Plain Old JavaScript Object (POJO).
+
+If your Component is stateless, you can omit the constructor function, however if you're building a Component with state, you need a standard React constructor.
+
+```javascript
+constructor(props) {
+	super(props);
+	this.state = {
+		// initial state goes here
+	};
+}
+// constructor takes one argument, props
+// you MUST call super(props) at the start of the constructor, which registers your class as a React Component
+// this.state is React boilerplate and cannot be changed
+```
 
 ---
 
