@@ -41,9 +41,9 @@ let workTechStack: string[] = ['HTML', 'CSS', 'SASS', 'Bootstrap', 'JavaScript',
 **Today’s Progress**:
 - Renforcing what I've learned thus far in Colt Steele's *The Modern React Bootcamp* I was able to wrap my [Pokedex game](https://github.com/HeresJohnny5/pokedex).
 	- Concepts learned:
-	- JSX
-	- React Props
-	- Using CSS to style React Components
+		- JSX
+		- React Props
+		- Using CSS to style React Components
 	
 - I was able to update my [LinkedIn](https://www.linkedin.com/in/johnerickson5/), Glassdoor and network with several new Developers and User Experience Designers.
 
