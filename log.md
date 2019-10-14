@@ -74,6 +74,43 @@ You can call ```setState()``` in any instance method **except the constructor**.
 
 The ```setState()``` function takes an object describing the state change and patches the state object. Keys that you do not specify will not change.
 
+```javascript
+import React, { Component } from 'react';
+
+class Button extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			gameStart: true,
+			gameValue: 1,
+		}
+	}
+
+	clickRandomNum = () => {
+		let randomNum = Math.floor(Math.random() * 10) + 1;
+		
+		if (this.state.gameValue === 7) {
+			this.setState({ gameStart: false, gameValue: randomNum });
+		} else {
+			this.setState({ gameStart: true, gameValue: randomNum });
+		}
+	};
+	
+	render() {
+		return (
+			<div>
+				<h1>Number is {this.state.gameValue}</h1>
+				{this.state.gameValue === 7 ?
+					<p>You Win!</p> :
+					<button onClick={this.clickRandomNum}>Random Number</button>
+				}
+			</div>
+		);
+	}
+}
+export default Button;
+```
+
 ---
 
 ### Day 2: October 13, 2019
