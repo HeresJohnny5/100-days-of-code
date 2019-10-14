@@ -36,3 +36,10 @@ let workTechStack: string[] = ['HTML', 'CSS', 'SASS', 'Bootstrap', 'JavaScript',
 **Today's Thoughts**:
 
 ---
+
+### Day 2: October 13, 2019
+**Today’s Progress**:
+
+**Today's Thoughts**:
+
+---
