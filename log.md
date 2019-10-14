@@ -40,7 +40,7 @@ let workTechStack: string[] = ['HTML', 'CSS', 'SASS', 'Bootstrap', 'JavaScript',
 ### Day 2: October 13, 2019
 **Today’s Progress**:
 - I was able to wrap up my [Pokedex game](https://github.com/HeresJohnny5/pokedex) using React.
-- I was able to update my LinkedIn, Glassdoor and network with several new Developers and User Experience Designers.
+- I was able to update my [LinkedIn](https://www.linkedin.com/in/johnerickson5/), Glassdoor and network with several new Developers and User Experience Designers.
 
 **Today's Thoughts**:
 
