@@ -39,10 +39,10 @@ let workTechStack: string[] = ['HTML', 'CSS', 'SASS', 'Bootstrap', 'JavaScript',
 ### Day 2: October 13, 2019
 **Today’s Progress**:
 - Renforcing what I've learned thus far in Colt Steele's *The Modern React Bootcamp* I was able to wrap my [Pokedex game](https://github.com/HeresJohnny5/pokedex).
-__Concepts learned__:
-- JSX
-- React Props
-- Using CSS to style React Components
+__Concepts Learned__:
+	- JSX
+	- React Props
+	- Using CSS to style React Components
 	
 - I was able to update my [LinkedIn](https://www.linkedin.com/in/johnerickson5/), Glassdoor and network with several new Developers and User Experience Designers.
 
