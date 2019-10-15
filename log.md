@@ -124,3 +124,38 @@ export default Button;
 - I was able to update my [LinkedIn](https://www.linkedin.com/in/johnerickson5/), Glassdoor and network with several new Developers and User Experience Designers.
 
 ---
+
+### Day 3: October 14, 2019
+**Today’s Progress**:
+- If a call to ```setState()``` depends on *current state* the safest thing is to use the alternative **callback form**. Instead of passing an object, pass ```setState()``` a callback with the current state as a parameter. The callback should return an object representing the new state.
+
+```javascript
+import React, { Component } from 'react';
+
+class Button extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			kills: 0
+		}
+	}
+	
+	clickUpdateKills = () => {
+		this.setState(this.incrementKills(this.state));
+	};
+	
+	incrementKills = (currentState) => {
+		return { kills: currentState.kills + 1 };
+	}
+	
+	render() {
+		return (
+			<div>
+				<h1>Number is {this.state.kills}</h1>
+				<button onClick={this.clickUpdateKills}>Kills</button>
+			</div>
+		);
+	}
+}
+export default Button;
+```
