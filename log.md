@@ -127,7 +127,8 @@ export default Button;
 
 ### Day 3: October 14, 2019
 **Today’s Progress**:
-- If a call to ```setState()``` depends on *current state* the safest thing is to use the alternative **callback form**. Instead of passing an object, pass ```setState()``` a callback with the current state as a parameter. The callback should return an object representing the new state.
+#### Updating existing state
+If a call to ```setState()``` depends on *current state* the safest thing is to use the alternative **callback form**. Instead of passing an object, pass ```setState()``` a callback with the current state as a parameter. The callback should return an object representing the new state.
 
 ```javascript
 import React, { Component } from 'react';
