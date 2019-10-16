@@ -160,3 +160,6 @@ class Button extends Component {
 }
 export default Button;
 ```
+
+### Day 4: October 15, 2019
+**Today’s Progress**:
