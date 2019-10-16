@@ -163,3 +163,5 @@ export default Button;
 
 ### Day 4: October 15, 2019
 **Today’s Progress**:
+- Today I started up a small React application based on a [lotto](https://github.com/HeresJohnny5/react-lotto) game to help reinforce my understanding of React state and how to update existing state.
+- I also made several small updates to my portfolio.
