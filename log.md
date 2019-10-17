@@ -169,7 +169,12 @@ export default Button;
 ### Day 4: October 16, 2019
 **Today’s Progress**:
 - Today I spent the entirety of the night prepping for a technical phone screening for a UI Developer role.
-- [Sukhjinder Arora Bits and Pieces](https://blog.bitsrc.io/@Sukhjinder)
+- For anyone looking to gain a better understanding of JavaScript concepts, please check out Web Developer / Tech Writer[Sukhjinder Arora Bits and Pieces at ](https://blog.bitsrc.io/@Sukhjinder). I read his articles on:
+	- **Understanding Execution Context and Execution Stack in JavaScript**
+	- **Hoisting in Modern JavaScript - let, const, and var**
+	- **Undertanding Closures in JavaScript**
+	- **Understanding Asynchronous JavaScript**
+	- **Understanding Scope and Scope Chain in JavaScript**
 
 ### Day 4: October 17, 2019
 **Today’s Progress**:
