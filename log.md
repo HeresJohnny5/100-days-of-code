@@ -165,3 +165,11 @@ export default Button;
 **Today’s Progress**:
 - Today I started up a small React application based on a [lotto](https://github.com/HeresJohnny5/react-lotto) game to help reinforce my understanding of React state and how to update existing state.
 - I also made several small updates to my portfolio.
+
+### Day 4: October 16, 2019
+**Today’s Progress**:
+- Today I spent the entirety of the night prepping for a technical phone screening for a UI Developer role.
+- [Sukhjinder Arora Bits and Pieces](https://blog.bitsrc.io/@Sukhjinder)
+
+### Day 4: October 17, 2019
+**Today’s Progress**:
