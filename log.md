@@ -178,7 +178,8 @@ export default Button;
 
 ### Day 6: October 17, 2019
 **Today’s Progress**:
+- Today I completed the small **lotto** application I started on the 4th. 
 
 ### Day 7: October 18, 2019
 **Today’s Progress**: 
-- Today I started up a small React application based on a [coin flipper](https://github.com/HeresJohnny5/react-lotto) game to help reinforce my understanding of React state and how to update existing state.
+- Today I started up a small React application based on a [coin flipper](https://github.com/HeresJohnny5/react-coin-flipper) game to help reinforce my understanding of React state and how to update existing state across multiple components.
