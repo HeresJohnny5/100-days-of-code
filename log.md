@@ -166,7 +166,7 @@ export default Button;
 - Today I started up a small React application based on a [lotto](https://github.com/HeresJohnny5/react-lotto) game to help reinforce my understanding of React state and how to update existing state.
 - I also made several small updates to my portfolio.
 
-### Day 4: October 16, 2019
+### Day 5: October 16, 2019
 **Today’s Progress**:
 - Today I spent the entirety of the night prepping for a technical phone screening for a UI Developer role.
 - For anyone looking to gain a deeper understanding of JavaScript core concepts, please check out Web Developer / Tech Writer[Sukhjinder Arora Bits and Pieces at ](https://blog.bitsrc.io/@Sukhjinder). I read his articles on:
@@ -176,5 +176,9 @@ export default Button;
 	- **Understanding Asynchronous JavaScript**
 	- **Understanding Scope and Scope Chain in JavaScript**
 
-### Day 4: October 17, 2019
+### Day 6: October 17, 2019
 **Today’s Progress**:
+
+### Day 7: October 18, 2019
+**Today’s Progress**: 
+- Today I started up a small React application based on a [coin flipper](https://github.com/HeresJohnny5/react-lotto) game to help reinforce my understanding of React state and how to update existing state.
