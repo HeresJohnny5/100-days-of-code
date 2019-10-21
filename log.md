@@ -183,3 +183,26 @@ export default Button;
 ### Day 7: October 18, 2019
 **Today’s Progress**: 
 - Today I started up a small React application based on a [coin flipper](https://github.com/HeresJohnny5/react-coin-flipper) game to help reinforce my understanding of React state and how to update existing state across multiple components.
+
+### Day 8: October 19, 2019
+**Today’s Progress**: 
+- Today I started to work on a coding exercise that was provided to me by the employer I had a phone screening with on 10/16. The coding project requires that I create a UI for a enterprise application scenario, creating a table of information that can be organized and edited.
+	- The user should be able to *Add a New Field/Row*
+	- The user should be able to *Save a New Category on visible Field/Row*
+	- The user should be able to *Delete a Field/Row which has previously had a New Category saved*
+	- The user should be able to *Reorganize the Fields/Rows*
+	- The table and UI should be responsive
+- **Tech Stack Dependencies**:
+	- Bootstrap 4
+	- jQuery3+ (optional)
+	- Angular 6+ (optional)
+
+### Day 9: October 20, 2019
+**Today’s Progress**: 
+- Today I continued to work on the coding exercise. I completed the following:
+	- *Add New Field/Row*
+	- *Save a New Category on visible Field/Row*
+	- *Delete a Field/Row which has previously had a New Category saved*
+- Work items remaining:
+	- The user should be able to *Reorganize the Fields/Rows*
+	- The table and UI should be responsive
