@@ -163,12 +163,12 @@ export default Button;
 
 ### Day 4: October 15, 2019
 **Today’s Progress**:
-- Today I started up a small React application based on a [lotto](https://github.com/HeresJohnny5/react-lotto) game to help reinforce my understanding of React state and how to update existing state.
+- I started up a small React application based on a [lotto](https://github.com/HeresJohnny5/react-lotto) game to help reinforce my understanding of React state and how to update existing state.
 - I also made several small updates to my portfolio.
 
 ### Day 5: October 16, 2019
 **Today’s Progress**:
-- Today I spent the entirety of the night prepping for a technical phone screening for a UI Developer role.
+- I spent the entirety of the night prepping for a technical phone screening for a UI Developer role.
 - For anyone looking to gain a deeper understanding of JavaScript core concepts, please check out Web Developer / Tech Writer[Sukhjinder Arora Bits and Pieces at ](https://blog.bitsrc.io/@Sukhjinder). I read his articles on:
 	- **Understanding Execution Context and Execution Stack in JavaScript**
 	- **Hoisting in Modern JavaScript - let, const, and var**
@@ -178,15 +178,15 @@ export default Button;
 
 ### Day 6: October 17, 2019
 **Today’s Progress**:
-- Today I completed the small **lotto** application I started on the 4th. 
+- I completed the small **lotto** application I started on the 4th. 
 
 ### Day 7: October 18, 2019
 **Today’s Progress**: 
-- Today I started up a small React application based on a [coin flipper](https://github.com/HeresJohnny5/react-coin-flipper) game to help reinforce my understanding of React state and how to update existing state across multiple components.
+- I started up a small React application based on a [coin flipper](https://github.com/HeresJohnny5/react-coin-flipper) game to help reinforce my understanding of React state and how to update existing state across multiple components.
 
 ### Day 8: October 19, 2019
 **Today’s Progress**: 
-- Today I started to work on a coding exercise that was provided to me by the employer I had a phone screening with on 10/16. The coding project requires that I create a UI for a enterprise application scenario, creating a table of information that can be organized and edited.
+- I started to work on a coding exercise that was provided to me by the employer I had a phone screening with on 10/16. The coding project requires that I create a UI for a enterprise application scenario, creating a table of information that can be organized and edited.
 	- The user should be able to *Add a New Field/Row*
 	- The user should be able to *Save a New Category on visible Field/Row*
 	- The user should be able to *Delete a Field/Row which has previously had a New Category saved*
@@ -199,10 +199,30 @@ export default Button;
 
 ### Day 9: October 20, 2019
 **Today’s Progress**: 
-- Today I continued to work on the coding exercise. I completed the following:
+- I continued to work on the coding exercise. I completed the following:
 	- *Add New Field/Row*
 	- *Save a New Category on visible Field/Row*
 	- *Delete a Field/Row which has previously had a New Category saved*
 - Work items remaining:
 	- The user should be able to *Reorganize the Fields/Rows*
 	- The table and UI should be responsive
+	
+### Day 10: October 21, 2019
+**Today’s Progress**: 
+- I continued to work on the coding exercise.
+	- I refactored my Bootstrap 4 table, changing dynamic DOM injection of rows to use a more Angular style approach. 
+	- I spent some time reading docs on [HTML Drag and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API), [Angular Material Drag and Drop](https://material.angular.io/cdk/drag-drop/overview), and [jQuery UI Sortable API](https://jqueryui.com/sortable/).
+
+### Day 11: October 22, 2019
+**Today’s Progress**:
+- While I didn't have much time to code outside of work I refactored my styles in the coding challenge and started to work on some generic media queries.
+
+### Day 12: October 23, 2019
+**Today’s Progress**: 
+- I completed the code exercise I started on the 19th [sl-coding-exercise](https://github.com/HeresJohnny5/sl-coding-exercise.io). While I was able to complete the code challenge I quickly realized it wouldn't hurt to refresh myself on the following technologies/concepts:
+	- DOM manipulation using Vanilla JavaScript or jQuery
+	- Sort/Reorder features using Vanilla JavaScript or jQuery
+	- Media Query styles
+	
+### Day 13: October 24, 2019
+**Today’s Progress**: 
