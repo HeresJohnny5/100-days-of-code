@@ -223,6 +223,7 @@ export default Button;
 	- DOM manipulation using Vanilla JavaScript or jQuery
 	- Sort/Reorder features using Vanilla JavaScript or jQuery
 	- Media Query styles
+- I also battled for some time trying to deploy my Angular application using GitHub pages. Unfortunately I was unsuccessful, but hope to try again in the next day or so. 
 	
 ### Day 13: October 24, 2019
 **Today’s Progress**: 
