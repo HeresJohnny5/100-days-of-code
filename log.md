@@ -233,6 +233,19 @@ export default Button;
 **Today’s Progress**: 
 - Today I spent some time learning about React Events and how to pass data from a *Parent* Component to a *Child* Component and vise versa.
 
+#### Data Flow:
+- A parent Component defines a function
+- The function is passed as a prop to a child Component
+- The child Component invokes the prop and has the ability to invoke the function which was passed from the parent (Stateful) Component to the child (Stateless) via the props
+- The parent Component is called, usually setting the new state
+- The parent Component is re-rendered along with its children
+
+#### Where to bind
+- The higher the better - don't bind in the child Component if not needed
+- If you need a parameter, pass it down to the child as a prop
+- Avoid inline arrow functions / binding if possible
+- No need to bind in the constructor and make an inline function
+
 ### Day 15: October 26, 2019
 **Today’s Progress**: 
 - Today I both completed Section 10: The World of React Events in Colt Steele's **The Modern React Bootcamp** as well as started [The Complete Sass & SCSS Course: From Beginner to Advanced](https://www.udemy.com/course/sasscourse/).
