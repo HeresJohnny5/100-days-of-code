@@ -227,3 +227,13 @@ export default Button;
 	
 ### Day 13: October 24, 2019
 **Today’s Progress**: 
+- Today I spent the majority of my day post work prepping for a phone screening for a UI Developer role.
+
+### Day 14: October 25, 2019
+**Today’s Progress**: 
+- Today I spent some time learning about React Events and how to pass data from a *Parent* Component to a *Child* Component and vise versa.
+
+### Day 15: October 26, 2019
+**Today’s Progress**: 
+- Today I both completed Section 10: The World of React Events in Colt Steele's **The Modern React Bootcamp** as well as started [The Complete Sass & SCSS Course: From Beginner to Advanced](https://www.udemy.com/course/sasscourse/).
+
