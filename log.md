@@ -250,3 +250,14 @@ export default Button;
 **Today’s Progress**: 
 - Today I both completed Section 10: The World of React Events in Colt Steele's **The Modern React Bootcamp** as well as started [The Complete Sass & SCSS Course: From Beginner to Advanced](https://www.udemy.com/course/sasscourse/).
 
+### Day 16: October 27, 2019
+**Today’s Progress**: 
+- Today I continued to make progress on The Complete Sass & SCSS Course learning about Sass Mixins and Operators.
+
+### Day 17: October 28, 2019
+**Today’s Progress**: 
+- Today I spent the majority of my day post work prepping for a video screening for a JavaScript Developer role.
+
+### Day 18: October 29, 2019
+**Today’s Progress**:
+- I started up a small React application based on a [Dice](https://github.com/HeresJohnny5/react-dice) game to help reinforce my understanding of React state, React events and passing data from Parent to Child components.
