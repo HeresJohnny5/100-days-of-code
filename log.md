@@ -266,4 +266,4 @@ export default Button;
 **Today’s Progress**:
 - I completed the [Dice](https://github.com/HeresJohnny5/react-dice).
 - Due to my current role I decided to revisit a Angular course I started several months back, but never finished: [Angular 7 (formerly Angular 2) - The Complete Guide](https://www.udemy.com/the-complete-guide-to-angular-2/) by *Maximilian Schwarzmüller*
-- I looked back at an Angular project I started, but never finished [Animal Rescue]()
+- I looked back at an Angular project I started, but never finished [Animal Rescue](https://github.com/HeresJohnny5/angular-animal-rescue)
