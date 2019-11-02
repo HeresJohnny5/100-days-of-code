@@ -270,9 +270,12 @@ export default Button;
 
 ### Day 20: October 31, 2019
 **Today’s Progress**:
+- I started up a small React application based on a [color picker](https://github.com/HeresJohnny5/react-color-boxes) app to help reinforce my understanding of React state, React events and passing data from Parent to Child components.
 
 ### Day 21: November 1, 2019
 **Today’s Progress**:
+- I chose to take a slight break from code to apply to some new roles let alone follow up on companies I've applied to and staffing firms I've connected with.
 
 ### Day 22: November 2, 2019
 **Today’s Progress**:
+- I completed the [color picker](https://github.com/HeresJohnny5/react-color-boxes) app.
