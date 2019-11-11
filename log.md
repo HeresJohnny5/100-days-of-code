@@ -282,6 +282,18 @@ export default Button;
 
 ### Day 22-30: November 3 - 11, 2019
 **Today’s Progress**:
-- 
+- Due to being preoccupied with several project I haven't had the luxery of free time to post on my 100 Days of Code journal, however below is a list of things I've accomplished: 
+	- Due to a upcoming interview this coming Thursday I've spent a lot of my free time working on a Angular project I started some time ago; [Animal Rescue](https://animal-rescue.netlify.com/home). 
+	- Due to a upcoming interview I'll have the week of 11/18 - 11/22 I've spent a lot of my free time reading on JavaScript interview questions focusing on the following topics:
+		- JavaScript Programming Paradigms
+		- Object Oriented Programming (OOP): Pros/Cons
+		- Functional Programming: Pros/Cons
+		- Class Inheritance
+		- Prototypal Inheritance
+		- Two-Way Data Binding vs. One-Way Data Flow
+		- Asynchronous JavaScript
+
+**Resources**:
+- [Deploy Angular 6 Applications to Netlify Hosting](https://www.youtube.com/watch?v=HCYteRRGcCM)
 
 
