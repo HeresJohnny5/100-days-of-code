@@ -279,3 +279,9 @@ export default Button;
 ### Day 22: November 2, 2019
 **Today’s Progress**:
 - I completed the [color picker](https://github.com/HeresJohnny5/react-color-boxes) app.
+
+### Day 22-30: November 3 - 11, 2019
+**Today’s Progress**:
+- 
+
+
